@@ -1,0 +1,30 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "Documentation for yearn.finance",
+  "dependencies": {
+    "prettier": "^2.1.1"
+  },
+  "scripts": {
+    "lint": "prettier --list-different '**/*.md'",
+    "lint:fix": "prettier --write '**/*.md'",
+    "lint:check": "prettier --check **/*.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iearn-finance/docs.git"
+  },
+  "license": "GPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/iearn-finance/docs/issues"
+  },
+  "homepage": "https://docs.yearn.finance/",
+  "devDependencies": {
+    "husky": "^4.3.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint:fix"
+    }
+  }
+}

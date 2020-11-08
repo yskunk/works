@@ -1,0 +1,40 @@
+{
+  "balancer": {
+    "key": "balancer",
+    "symbol": "BAL",
+    "name": "Balancer",
+    "token": "0xba100000625a3754423978a60c9317c58a424e3D",
+    "verified": [
+      "0x24A12Fa313F57aF541d447c594072A992c605DCf",
+      "0x8BBE4Ac64246d600BC2889ef5d83809D138F03DF",
+      "0xeF8305E140ac520225DAf050e2f71d5fBcC543e7",
+      "0x107174D70b33523E83711EA4C3F4229cdB8A7Cb1",
+      "0x0b21Dbc34A953a35dFA629ad31e1cEE3dE0433Fb"
+    ],
+    "visible": false
+  },
+  "dai": {
+    "key": "dai",
+    "symbol": "DAI",
+    "name": "DAI",
+    "token": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+    "verified": [
+      "0xeF8305E140ac520225DAf050e2f71d5fBcC543e7",
+      "0x107174D70b33523E83711EA4C3F4229cdB8A7Cb1",
+      "0x0b21Dbc34A953a35dFA629ad31e1cEE3dE0433Fb"
+    ],
+    "visible": false
+  },
+  "yearn": {
+    "key": "yearn",
+    "symbol": "YFI",
+    "name": "yearn.finance",
+    "token": "0xBa37B002AbaFDd8E89a1995dA52740bbC013D992",
+    "verified": [
+      "0xb258aD4125e84068F3A47fbBC4F6aCeD2bC148EC",
+      "0x7A1057E6e9093DA9C1D4C1D049609B6889fC4c67",
+      "0xFEB4acf3df3cDEA7399794D0869ef76A6EfAff52"
+    ],
+    "visible": true
+  }
+}

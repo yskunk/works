@@ -1,0 +1,44 @@
+{
+  "Open.Intro": "Open Position. Simple.",
+  "Open.Connect": "Connect wallet",
+  "Open.Trade": "Open position",
+  "Open.IHave": "Deposit Collateral",
+  "Open.IWillReceive": "Receive Position",
+  "Open.Leverage": "Pick your leverage",
+
+  "Home.Open": "Open Position",
+  "Home.Close": "Close Positions",
+
+  "Debt.Intro": "Manage Positions. Simple.",
+  "Debt.Connect": "Connect wallet",
+  "Debt.Principal": "Principal",
+  "Debt.Debt": "Debt",
+  "Debt.Position": "Position",
+
+  "Close.Intro": "Close Position. Simple.",
+  "Close.Connect": "Connect wallet",
+  "Close.Close": "Close position",
+  "Close.SettlePosition": "Settle CDP",
+  "Close.IHave": "Close asset",
+  "Close.IWillReceive": "Receive asset",
+  "Close.AssetId": "CDP ID",
+  "Close.Debt": "Debt",
+  "Close.Collateral": "Collateral",
+  "Close.ClosePosition": "Close CDP",
+
+  "Asset.ClosePosition":  "Close Position",
+  "Asset.ExitPosition":  "Exit Position",
+  "Asset.RepayDebt":  "Repay Debt",
+  "Asset.WithdrawPrincipal": "Withdraw Principal",
+
+  "Unlock.WalletConnected": "Wallet connected",
+  "Unlock.Deactivate": "Deactivate",
+
+  "Footer.Home": "Home",
+
+  "Snackbar.Error": "Error",
+  "Snackbar.Warning": "Warning",
+  "Snackbar.Info": "Info",
+  "Snackbar.Succecss": "Success",
+  "Snackbar.Hash": "Hash"
+}
