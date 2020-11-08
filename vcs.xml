@@ -1,0 +1,3095 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tree>
+  <directory name="modules/">
+    <directory name="YIPS">
+      <file name="404.html"></file>
+      <file name="CNAME"></file>
+      <file name="Gemfile"></file>
+      <file name="Gemfile.lock"></file>
+      <file name="LICENSE"></file>
+      <file name="README.md"></file>
+      <directory name="YIPS">
+        <directory name="assets">
+          <file name="yip-41-budget.png"></file>
+          <file name="yip5.png"></file>
+          <file name="yip8.png"></file>
+        </directory>
+        <file name="yip-0.md"></file>
+        <file name="yip-1.md"></file>
+        <file name="yip-10.md"></file>
+        <file name="yip-12.md"></file>
+        <file name="yip-14.md"></file>
+        <file name="yip-2.md"></file>
+        <file name="yip-30.md"></file>
+        <file name="yip-31.md"></file>
+        <file name="yip-32.md"></file>
+        <file name="yip-33.md"></file>
+        <file name="yip-34.md"></file>
+        <file name="yip-35.md"></file>
+        <file name="yip-36.md"></file>
+        <file name="yip-37.md"></file>
+        <file name="yip-38.md"></file>
+        <file name="yip-39.md"></file>
+        <file name="yip-40.md"></file>
+        <file name="yip-41.md"></file>
+        <file name="yip-42.md"></file>
+        <file name="yip-43.md"></file>
+        <file name="yip-44.md"></file>
+        <file name="yip-45.md"></file>
+        <file name="yip-5.md"></file>
+        <file name="yip-8.md"></file>
+      </directory>
+      <file name="_config.yml"></file>
+      <directory name="_data">
+        <file name="statuses.yaml"></file>
+      </directory>
+      <directory name="_includes">
+        <file name="authorlist.html"></file>
+        <file name="head.html"></file>
+        <file name="social.html"></file>
+        <file name="yipnums.html"></file>
+        <file name="yiptable.html"></file>
+      </directory>
+      <directory name="_layouts">
+        <file name="yip.html"></file>
+      </directory>
+      <file name="all-yip.html"></file>
+      <directory name="assets">
+        <file name="additional-styles.scss"></file>
+        <file name="og_image.png"></file>
+      </directory>
+      <file name="favicon.ico"></file>
+      <file name="index.html"></file>
+      <file name="mathjax-config.js"></file>
+      <file name="yip-X.md"></file>
+    </directory>
+    <directory name="api.yuni.finance">
+      <file name="api.yuni.finance.js"></file>
+      <directory name="helpers">
+        <file name="db.js"></file>
+      </directory>
+      <directory name="models">
+        <file name="model.js"></file>
+      </directory>
+      <file name="package-lock.json"></file>
+      <file name="package.json"></file>
+      <directory name="routes">
+        <file name="routes.js"></file>
+      </directory>
+    </directory>
+    <directory name="apr-oracle">
+      <file name="LICENSE"></file>
+      <file name="README.md"></file>
+      <directory name="build">
+        <directory name="contracts">
+          <file name="APROracle.json"></file>
+          <file name="APRWithPoolOracle.json"></file>
+          <file name="Address.json"></file>
+          <file name="Compound.json"></file>
+          <file name="Context.json"></file>
+          <file name="Decimal.json"></file>
+          <file name="DyDx.json"></file>
+          <file name="Fulcrum.json"></file>
+          <file name="IAPROracle.json"></file>
+          <file name="IDDEX.json"></file>
+          <file name="IDDEXModel.json"></file>
+          <file name="IERC20.json"></file>
+          <file name="ILendF.json"></file>
+          <file name="ILendFModel.json"></file>
+          <file name="IReserveInterestRateStrategy.json"></file>
+          <file name="InterestRateModel.json"></file>
+          <file name="LendingPoolAddressesProvider.json"></file>
+          <file name="LendingPoolCore.json"></file>
+          <file name="Migrations.json"></file>
+          <file name="Ownable.json"></file>
+          <file name="SafeMath.json"></file>
+          <file name="Structs.json"></file>
+        </directory>
+      </directory>
+      <directory name="contracts">
+        <file name="APROracle.sol"></file>
+        <file name="APRWithPoolOracle.sol"></file>
+        <file name="IAPROracle.sol"></file>
+        <file name="IAPRWithPoolOracle.sol"></file>
+        <file name="Migrations.sol"></file>
+      </directory>
+      <directory name="migrations">
+        <file name="1_initial_migration.js"></file>
+      </directory>
+      <file name="package.json"></file>
+      <file name="truffle-config.js"></file>
+    </directory>
+    <directory name="audit">
+      <directory name="contracts">
+        <directory name="YFI">
+          <file name="YFI.sol"></file>
+        </directory>
+        <directory name="adhoc">
+          <file name="COMPfarming.sol"></file>
+          <file name="CurveFlash.sol"></file>
+          <file name="DistributeYFI.sol"></file>
+        </directory>
+        <directory name="wip">
+          <file name="AaveCollateralVaultProxy.sol"></file>
+          <file name="AaveLiquidations.sol"></file>
+          <file name="CompensationEscrow.sol"></file>
+          <file name="ConverterDAItoYCRV.sol"></file>
+          <file name="CreamFlashLiquidations.sol"></file>
+          <file name="CurveVaultTest.sol"></file>
+          <file name="DistributionRewardsProxy.sol"></file>
+          <file name="EminenceCurrency.sol"></file>
+          <file name="EminenceStats.sol"></file>
+          <file name="GovernanceAlpha.sol"></file>
+          <file name="HegicV1Pair.sol"></file>
+          <file name="Keep3rV1Helper.sol"></file>
+          <file name="RiskOracle.sol"></file>
+          <file name="StrategyBalancerMTA.sol"></file>
+          <file name="StrategyCompoundBasic.sol"></file>
+          <file name="StrategyCurveYFII.sol"></file>
+          <file name="StrategyMStableSavingsTUSD.sol"></file>
+          <file name="StrategyMStableSavingsUSDC.sol"></file>
+          <file name="StrategySNXSUSD.sol"></file>
+          <file name="StrategyV1Proxy.sol"></file>
+          <file name="StrategyVaultTUSD.sol"></file>
+          <file name="StrategyYFII.sol"></file>
+          <file name="StrategyYearnBasic.sol"></file>
+          <file name="SyntheticRebase.sol"></file>
+          <file name="SyntheticRebaseTest.sol"></file>
+          <file name="UniswapV2Factory.sol"></file>
+          <file name="UniswapV2Oracle.sol"></file>
+          <file name="UniswapV2Router.sol"></file>
+          <file name="YearnV1Factory.sol"></file>
+          <file name="exploit-earn.sol"></file>
+          <file name="exploitClean.sol"></file>
+          <file name="veCurveVault.sol"></file>
+          <file name="yCollateralVaultProxy.sol"></file>
+          <file name="yVault.sol"></file>
+          <file name="yWrappedVault.sol"></file>
+          <file name="ycUSDT.sol"></file>
+        </directory>
+        <directory name="yBorrow">
+          <file name="yCollateralVaultProxy.sol"></file>
+        </directory>
+        <directory name="yEarn">
+          <file name="APROracle.sol"></file>
+          <file name="APRWithPoolOracle.sol"></file>
+          <file name="CurveFlash.sol"></file>
+          <file name="CurvePool.sol"></file>
+          <file name="SmartContractWhitelist.sol"></file>
+          <file name="UniSwap_ETH_CDAIZap.sol"></file>
+          <file name="UniswapAPR.sol"></file>
+          <file name="busdCurveFlashDAI.sol"></file>
+          <file name="busdCurveGrantPool.sol"></file>
+          <file name="yBTC.sol"></file>
+          <file name="yBUSDv3.sol"></file>
+          <file name="yCRV.sol"></file>
+          <file name="yCurveBalances.sol"></file>
+          <file name="yCurveExchange.sol"></file>
+          <file name="yCurveExchangeView.sol"></file>
+          <file name="yCurveGrantPool.sol"></file>
+          <file name="yCurveZapIn.sol"></file>
+          <file name="yCurveZapInV4.sol"></file>
+          <file name="yCurveZapOut.sol"></file>
+          <file name="yCurveZapOutV4.sol"></file>
+          <file name="yCurveZapSwap.sol"></file>
+          <file name="yCurveZapSwapV4toV3.sol"></file>
+          <file name="yDAI.sol"></file>
+          <file name="yDAIv2Proxy.sol"></file>
+          <file name="yDAIv3.sol"></file>
+          <file name="yETH.sol"></file>
+          <file name="yEarnAPR.sol"></file>
+          <file name="yEarnAPRWithPool.sol"></file>
+          <file name="yEarnManager.sol"></file>
+          <file name="yEarnProvider.sol"></file>
+          <file name="ySUSD.sol"></file>
+          <file name="yTUSD.sol"></file>
+          <file name="yTokenProxy.sol"></file>
+          <file name="yTokenRebalance.sol"></file>
+          <file name="yUSDC.sol"></file>
+          <file name="yUSDCv3.sol"></file>
+          <file name="yUSDT.sol"></file>
+          <file name="yUSDTv1.sol"></file>
+          <file name="yUSDTv3.sol"></file>
+          <file name="yWBTC.sol"></file>
+          <file name="ycUSDC.sol"></file>
+          <file name="ycUSDT.sol"></file>
+        </directory>
+        <directory name="yGov">
+          <file name="TimelockGovernance.sol"></file>
+          <file name="YearnFeeRewards.sol"></file>
+          <file name="YearnGovernanceBPT.sol"></file>
+          <file name="YearnGovernanceYFI.sol"></file>
+          <file name="YearnRewardsBalancer.sol"></file>
+          <file name="YearnRewardsBurn.sol"></file>
+          <file name="YearnRewardsCRV.sol"></file>
+        </directory>
+        <directory name="yLeverage">
+          <file name="DSSLeverage.sol"></file>
+        </directory>
+        <directory name="yLiquidate">
+          <file name="AaveLiquidate.sol"></file>
+          <file name="LiquidationOracle.sol"></file>
+          <file name="oCurveLiquidate.sol"></file>
+        </directory>
+        <directory name="ySwap">
+          <file name="ChainLinkFeedsRegistry.sol"></file>
+          <file name="StableAMMv3.sol"></file>
+          <file name="UniswapYieldV2Factory.sol"></file>
+          <file name="UniswapYieldV2Router02.sol"></file>
+        </directory>
+        <directory name="ySynth">
+          <file name="SupplyFactoryEUR.sol"></file>
+          <file name="Synthetic.sol"></file>
+        </directory>
+        <directory name="yTrade">
+          <file name="yCollateral.sol"></file>
+          <file name="yTrade.sol"></file>
+        </directory>
+        <directory name="yYield">
+          <file name="StrategyCompoundBasic.sol"></file>
+          <file name="StrategyYearnBasic.sol"></file>
+          <file name="yVault.sol"></file>
+        </directory>
+      </directory>
+    </directory>
+    <directory name="balancer-gov">
+      <file name="LICENSE"></file>
+      <file name="README.md"></file>
+      <file name="babel.config.js"></file>
+      <file name="index.ts"></file>
+      <file name="package-lock.json"></file>
+      <file name="package.json"></file>
+      <directory name="public">
+        <file name="favicon.ico"></file>
+        <file name="favicon.png"></file>
+        <file name="index.html"></file>
+      </directory>
+      <directory name="server">
+        <file name="api.ts"></file>
+        <file name="pinata.ts"></file>
+        <file name="redis.ts"></file>
+        <file name="relayer.ts"></file>
+        <file name="utils.ts"></file>
+      </directory>
+      <directory name="src">
+        <file name="App.vue"></file>
+        <directory name="assets">
+          <file name="YFI-logo.png"></file>
+          <file name="bg.svg"></file>
+          <directory name="connectors">
+            <file name="injected.svg"></file>
+            <file name="magic.svg"></file>
+            <file name="portis.svg"></file>
+            <file name="walletconnect.svg"></file>
+          </directory>
+          <directory name="fonts">
+            <file name="Calibre-Medium.eot"></file>
+            <file name="Calibre-Medium.ttf"></file>
+            <file name="Calibre-Medium.woff"></file>
+            <file name="Calibre-Semibold.eot"></file>
+            <file name="Calibre-Semibold.ttf"></file>
+            <file name="Calibre-Semibold.woff"></file>
+            <file name="iconfont.css"></file>
+            <file name="iconfont.eot"></file>
+            <file name="iconfont.json"></file>
+            <file name="iconfont.svg"></file>
+            <file name="iconfont.ttf"></file>
+            <file name="iconfont.woff"></file>
+            <file name="iconfont.woff2"></file>
+          </directory>
+          <file name="logo-white.svg"></file>
+          <file name="logo.svg"></file>
+        </directory>
+        <directory name="components">
+          <file name="Avatar.vue"></file>
+          <directory name="Block">
+            <file name="Results.vue"></file>
+            <file name="Votes.vue"></file>
+          </directory>
+          <file name="Block.vue"></file>
+          <file name="Container.vue"></file>
+          <file name="Icon.vue"></file>
+          <directory name="Modal">
+            <file name="About.vue"></file>
+            <file name="Account.vue"></file>
+            <file name="Confirm.vue"></file>
+            <file name="Receipt.vue"></file>
+            <file name="SelectDate.vue"></file>
+            <file name="User.vue"></file>
+            <file name="VotingPower.vue"></file>
+          </directory>
+          <file name="Notifications.vue"></file>
+          <file name="RowLoading.vue"></file>
+          <file name="RowProposal.vue"></file>
+          <file name="State.vue"></file>
+          <file name="Sticky.vue"></file>
+          <file name="Token.vue"></file>
+          <file name="Topnav.vue"></file>
+          <directory name="Ui">
+            <file name="Button.vue"></file>
+            <file name="Calendar.vue"></file>
+            <file name="Counter.vue"></file>
+            <file name="Label.vue"></file>
+            <file name="Loading.vue"></file>
+            <file name="Markdown.vue"></file>
+            <file name="Modal.vue"></file>
+            <file name="Progress.vue"></file>
+          </directory>
+          <file name="User.vue"></file>
+        </directory>
+        <file name="config.json"></file>
+        <file name="fonts.scss"></file>
+        <directory name="helpers">
+          <directory name="abi">
+            <file name="Multicall.json"></file>
+            <file name="TestToken.json"></file>
+            <file name="Weth.json"></file>
+            <file name="index.ts"></file>
+            <file name="yfiToken.json"></file>
+          </directory>
+          <file name="client.ts"></file>
+          <file name="config.ts"></file>
+          <file name="ipfs.ts"></file>
+          <file name="lock.ts"></file>
+          <file name="queries.json"></file>
+          <file name="subgraph.ts"></file>
+          <file name="utils.ts"></file>
+          <file name="ws.ts"></file>
+        </directory>
+        <file name="i18n.ts"></file>
+        <file name="main.ts"></file>
+        <file name="mixins.ts"></file>
+        <file name="namespaces.json"></file>
+        <file name="router.ts"></file>
+        <file name="shims-tsx.d.ts"></file>
+        <file name="shims-vue.d.ts"></file>
+        <directory name="store">
+          <file name="index.ts"></file>
+          <directory name="modules">
+            <file name="gov.ts"></file>
+            <file name="index.ts"></file>
+            <file name="notifications.ts"></file>
+            <file name="subgraph.ts"></file>
+            <file name="ui.ts"></file>
+            <file name="web3.ts"></file>
+          </directory>
+        </directory>
+        <file name="style.scss"></file>
+        <file name="vars.scss"></file>
+        <directory name="views">
+          <file name="Create.vue"></file>
+          <file name="Home.vue"></file>
+          <file name="Proposal.vue"></file>
+          <file name="Proposals.vue"></file>
+        </directory>
+      </directory>
+      <file name="tsconfig.json"></file>
+      <file name="vue.config.js"></file>
+    </directory>
+    <directory name="docs">
+      <file name="LICENSE"></file>
+      <file name="README.md"></file>
+      <file name="SUMMARY.md"></file>
+      <directory name="additional-resources">
+        <file name="team.md"></file>
+      </directory>
+      <directory name="archived">
+        <file name="features.md"></file>
+        <file name="resources.md"></file>
+        <file name="strategies.md"></file>
+        <file name="walkthrough.md"></file>
+        <directory name="yearn.finance">
+          <file name="yearn-1.md"></file>
+          <file name="yearn.md"></file>
+        </directory>
+        <directory name="ytrade.finance">
+          <file name="ytrade-1.md"></file>
+          <file name="ytrade.md"></file>
+        </directory>
+      </directory>
+      <file name="defi-glossary.md"></file>
+      <directory name="developers">
+        <file name="code-repositories.md"></file>
+        <file name="deployed-contracts-registry.md"></file>
+        <file name="integration-guide.md"></file>
+        <directory name="misc-resources">
+          <file name="README.md"></file>
+          <file name="adminpolicy.md"></file>
+          <directory name="smart-contract-api">
+            <file name="README.md"></file>
+            <file name="apr.md"></file>
+            <file name="itoken.md"></file>
+            <file name="zap.md"></file>
+          </directory>
+          <directory name="smart-contract-integration">
+            <file name="1split.md"></file>
+            <file name="README.md"></file>
+            <file name="aave.md"></file>
+            <file name="apr.md"></file>
+            <file name="aprmap.md"></file>
+            <file name="aprmapwithpool.md"></file>
+            <file name="aprwithpool.md"></file>
+            <file name="compound.md"></file>
+            <file name="curvefi.md"></file>
+            <file name="dydx.md"></file>
+            <file name="fulcrum.md"></file>
+            <file name="imanage.md"></file>
+            <file name="interface.md"></file>
+            <file name="itoken.md"></file>
+            <file name="uniswap.md"></file>
+            <file name="uniswapapr.md"></file>
+            <file name="uniswaproi.md"></file>
+            <file name="ybtc.md"></file>
+            <file name="ybusd.md"></file>
+            <file name="ycrv.md"></file>
+            <file name="ydai.md"></file>
+            <file name="ysusd.md"></file>
+            <file name="ytusd.md"></file>
+            <file name="yusdc.md"></file>
+            <file name="yusdt.md"></file>
+            <file name="zap.md"></file>
+          </directory>
+        </directory>
+        <directory name="yvaults-documentation">
+          <file name="README.md"></file>
+          <file name="vault-interfaces.md"></file>
+          <file name="vaults-overview.md"></file>
+        </directory>
+      </directory>
+      <file name="faq.md"></file>
+      <file name="governance.md"></file>
+      <directory name="how-to-guides">
+        <file name="README.md"></file>
+        <file name="how-to-add-a-custom-token-to-metamask.md"></file>
+        <file name="how-to-make-a-yip.md"></file>
+        <file name="how-to-mint-yusd.md"></file>
+        <file name="how-to-participate-in-a-yvault.md"></file>
+        <file name="how-to-understand-crv-vote-locking.md"></file>
+        <file name="how-to-understand-yvault-roi.md"></file>
+      </directory>
+      <file name="package-lock.json"></file>
+      <file name="package.json"></file>
+      <directory name="products">
+        <file name="earn.md"></file>
+        <file name="yinsure.md"></file>
+        <file name="yvaults.md"></file>
+        <file name="zap.md"></file>
+      </directory>
+      <directory name="r-and-d">
+        <file name="delegated-funding-dao-vaults.md"></file>
+        <file name="stablecredit.md"></file>
+        <file name="yborrow.md"></file>
+        <file name="yliquidate.md"></file>
+        <file name="yswap.md"></file>
+        <file name="ytrade.md"></file>
+      </directory>
+      <file name="yfi-and-ytokens.md"></file>
+      <file name="yusd.md"></file>
+    </directory>
+    <directory name="faq">
+      <file name="LICENSE"></file>
+      <file name="README.md"></file>
+    </directory>
+    <file name="git.xml"></file>
+    <directory name="iborrow-finance">
+      <file name="README.md"></file>
+      <file name="package-lock.json"></file>
+      <file name="package.json"></file>
+      <directory name="public">
+        <file name="android-icon-144x144.png"></file>
+        <file name="android-icon-192x192.png"></file>
+        <file name="android-icon-36x36.png"></file>
+        <file name="android-icon-48x48.png"></file>
+        <file name="android-icon-72x72.png"></file>
+        <file name="android-icon-96x96.png"></file>
+        <file name="apple-icon-114x114.png"></file>
+        <file name="apple-icon-120x120.png"></file>
+        <file name="apple-icon-144x144.png"></file>
+        <file name="apple-icon-152x152.png"></file>
+        <file name="apple-icon-180x180.png"></file>
+        <file name="apple-icon-57x57.png"></file>
+        <file name="apple-icon-60x60.png"></file>
+        <file name="apple-icon-72x72.png"></file>
+        <file name="apple-icon-76x76.png"></file>
+        <file name="apple-icon-precomposed.png"></file>
+        <file name="apple-icon.png"></file>
+        <file name="favicon-16x16.png"></file>
+        <file name="favicon-32x32.png"></file>
+        <file name="favicon-96x96.png"></file>
+        <file name="favicon.ico"></file>
+        <file name="favicon.png.png"></file>
+        <file name="index.html"></file>
+        <file name="logo192.png"></file>
+        <file name="logo512.png"></file>
+        <file name="manifest.json"></file>
+        <file name="robots.txt"></file>
+      </directory>
+      <directory name="src">
+        <file name="App.css"></file>
+        <file name="App.js"></file>
+        <file name="App.test.js"></file>
+        <directory name="assets">
+          <file name="$-logo.png"></file>
+          <file name="aBAT-logo.png"></file>
+          <file name="aBUSD-logo.png"></file>
+          <file name="aDAI-logo.png"></file>
+          <file name="aETH-logo.png"></file>
+          <file name="aKNC-logo.png"></file>
+          <file name="aLEND-logo.png"></file>
+          <file name="aLINK-logo.png"></file>
+          <file name="aMANA-logo.png"></file>
+          <file name="aMKR-logo.png"></file>
+          <file name="aREP-logo.png"></file>
+          <file name="aSNX-logo.png"></file>
+          <file name="aSUSD-logo.png"></file>
+          <file name="aTUSD-logo.png"></file>
+          <file name="aUSDC-logo.png"></file>
+          <file name="aUSDT-logo.png"></file>
+          <file name="aWBTC-logo.png"></file>
+          <file name="aZRX-logo.png"></file>
+          <file name="aave-logo.png"></file>
+          <directory name="fonts">
+            <file name="WorkSans-VariableFont_wght.ttf"></file>
+          </directory>
+          <file name="icn-ledger.svg"></file>
+          <file name="icn-metamask.svg"></file>
+          <file name="trustWallet.png"></file>
+        </directory>
+        <directory name="components">
+          <directory name="account">
+            <file name="account.jsx"></file>
+            <file name="package.json"></file>
+          </directory>
+          <directory name="borrower">
+            <file name="borrower.jsx"></file>
+            <file name="package.json"></file>
+            <file name="vault.jsx"></file>
+          </directory>
+          <directory name="borrowing">
+            <file name="borrowing.jsx"></file>
+            <file name="package.json"></file>
+          </directory>
+          <directory name="collateral">
+            <file name="collateral.jsx"></file>
+            <file name="package.json"></file>
+          </directory>
+          <directory name="header">
+            <file name="header.jsx"></file>
+            <file name="package.json"></file>
+          </directory>
+          <directory name="home">
+            <file name="home.jsx"></file>
+            <file name="package.json"></file>
+          </directory>
+          <directory name="loader">
+            <file name="loader.jsx"></file>
+            <file name="package.json"></file>
+          </directory>
+          <directory name="snackbar">
+            <file name="package.json"></file>
+            <file name="snackbar.jsx"></file>
+          </directory>
+          <directory name="unlock">
+            <file name="hooks.jsx"></file>
+            <file name="package.json"></file>
+            <file name="unlock.jsx"></file>
+            <file name="unlockModal.jsx"></file>
+          </directory>
+          <directory name="vaults">
+            <file name="package.json"></file>
+            <file name="vaults.jsx"></file>
+            <file name="vaultsModal.jsx"></file>
+          </directory>
+        </directory>
+        <directory name="constants">
+          <file name="constants.jsx"></file>
+          <file name="package.json"></file>
+        </directory>
+        <file name="index.css"></file>
+        <file name="index.js"></file>
+        <file name="logo.svg"></file>
+        <file name="serviceWorker.js"></file>
+        <file name="setupTests.js"></file>
+        <directory name="store">
+          <directory name="config">
+            <file name="config.jsx"></file>
+            <file name="package.json"></file>
+          </directory>
+          <file name="connectors.jsx"></file>
+          <file name="package.json"></file>
+          <file name="store.jsx"></file>
+        </directory>
+        <directory name="theme">
+          <file name="package.json"></file>
+          <file name="theme.jsx"></file>
+        </directory>
+      </directory>
+      <file name="yarn.lock"></file>
+    </directory>
+    <directory name="iearn-finance">
+      <file name="LICENSE"></file>
+      <file name="README.md"></file>
+      <file name="commitlint.config.js"></file>
+      <file name="package-lock.json"></file>
+      <file name="package.json"></file>
+      <directory name="public">
+        <file name="BAT-logo.png"></file>
+        <file name="DAI-logo.png"></file>
+        <file name="ETH-icon.png"></file>
+        <file name="FTM-logo.png"></file>
+        <file name="KNC-logo.png"></file>
+        <file name="LEND-logo.png"></file>
+        <file name="LINK-logo.png"></file>
+        <file name="MANA-logo.png"></file>
+        <file name="MKR-logo.png"></file>
+        <file name="REP-logo.png"></file>
+        <file name="SAI-logo.png"></file>
+        <file name="SNX-logo.png"></file>
+        <file name="SUSD-logo.png"></file>
+        <file name="TUSD-logo.png"></file>
+        <file name="USDC-icon.png"></file>
+        <file name="USDC-logo.png"></file>
+        <file name="USDT-icon.png"></file>
+        <file name="USDT-logo.png"></file>
+        <file name="ZRX-logo.png"></file>
+        <file name="aave.png"></file>
+        <file name="android-icon-144x144.png"></file>
+        <file name="android-icon-192x192.png"></file>
+        <file name="android-icon-36x36.png"></file>
+        <file name="android-icon-48x48.png"></file>
+        <file name="android-icon-72x72.png"></file>
+        <file name="android-icon-96x96.png"></file>
+        <file name="apple-icon-114x114.png"></file>
+        <file name="apple-icon-120x120.png"></file>
+        <file name="apple-icon-144x144.png"></file>
+        <file name="apple-icon-152x152.png"></file>
+        <file name="apple-icon-180x180.png"></file>
+        <file name="apple-icon-57x57.png"></file>
+        <file name="apple-icon-60x60.png"></file>
+        <file name="apple-icon-72x72.png"></file>
+        <file name="apple-icon-76x76.png"></file>
+        <file name="apple-icon-precomposed.png"></file>
+        <file name="apple-icon.png"></file>
+        <file name="browserconfig.xml"></file>
+        <file name="busd.png"></file>
+        <file name="compound.png"></file>
+        <file name="defizap.png"></file>
+        <file name="etherscan.png"></file>
+        <file name="favicon-16x16.png"></file>
+        <file name="favicon-32x32.png"></file>
+        <file name="favicon-96x96.png"></file>
+        <file name="favicon.ico"></file>
+        <file name="favicon.png.png"></file>
+        <file name="fortmaticIcon.png"></file>
+        <file name="index.html"></file>
+        <file name="kybernetwork.png"></file>
+        <file name="ledger.png"></file>
+        <file name="lendf.png"></file>
+        <file name="manifest.json"></file>
+        <file name="metamask.png"></file>
+        <file name="ms-icon-144x144.png"></file>
+        <file name="ms-icon-150x150.png"></file>
+        <file name="ms-icon-310x310.png"></file>
+        <file name="ms-icon-70x70.png"></file>
+        <file name="portisIcon.png"></file>
+        <file name="squarelink.png"></file>
+        <file name="trezor.png"></file>
+        <file name="truffle.png"></file>
+        <file name="trustWallet.png"></file>
+        <file name="uniswap.png"></file>
+        <file name="wBTC-icon.png"></file>
+        <file name="wBTC-logo.png"></file>
+      </directory>
+      <directory name="src">
+        <file name="App.css"></file>
+        <file name="App.js"></file>
+        <file name="App.test.js"></file>
+        <directory name="assets">
+          <file name="3Crv-logo.png"></file>
+          <file name="BAT-logo.png"></file>
+          <file name="BUSD-logo.png"></file>
+          <file name="COMP-logo.png"></file>
+          <file name="CRV-icon.png"></file>
+          <file name="CRV-logo.jpg"></file>
+          <file name="CRV-logo.png"></file>
+          <file name="DAI-logo.png"></file>
+          <file name="ERPH0DMWsAEWBjy.jpg"></file>
+          <file name="ETH-icon.png"></file>
+          <file name="ETH-logo.png"></file>
+          <file name="FTM-logo.png"></file>
+          <file name="GUSD-logo.png"></file>
+          <file name="IEARN-icon.png"></file>
+          <file name="KNC-logo.png"></file>
+          <file name="LEND-logo.png"></file>
+          <file name="LINK-logo.png"></file>
+          <file name="MANA-logo.png"></file>
+          <file name="MKR-logo.png"></file>
+          <file name="REP-logo.png"></file>
+          <file name="SAI-logo.png"></file>
+          <file name="SNX-logo.png"></file>
+          <file name="SUSD-logo.png"></file>
+          <file name="TUSD-logo.png"></file>
+          <file name="USD-logo.png"></file>
+          <file name="USDC-icon.png"></file>
+          <file name="USDC-logo.png"></file>
+          <file name="USDT-icon.png"></file>
+          <file name="USDT-logo.png"></file>
+          <file name="WETH-logo.png"></file>
+          <file name="YFI-logo.png"></file>
+          <file name="ZRX-logo.png"></file>
+          <file name="aLINK-logo.png"></file>
+          <file name="aave.png"></file>
+          <file name="aave.svg"></file>
+          <file name="alchemy.png"></file>
+          <file name="bzx.png"></file>
+          <file name="cUSDC-logo.png"></file>
+          <file name="cUSDT-logo.png"></file>
+          <file name="coinbaseWalletIcon.svg"></file>
+          <file name="compound.png"></file>
+          <file name="crvBTC-logo.png"></file>
+          <file name="crvBUSD-logo.png"></file>
+          <file name="curvefi.jpg"></file>
+          <file name="ddex.jpg"></file>
+          <file name="ddex.png"></file>
+          <file name="defipulse.png"></file>
+          <file name="defisnap.svg"></file>
+          <file name="defizap.png"></file>
+          <file name="discord.svg"></file>
+          <file name="dydx.jpg"></file>
+          <file name="dydx.svg"></file>
+          <file name="ethereum.png"></file>
+          <file name="etherscan.png"></file>
+          <directory name="fonts">
+            <file name="WorkSans-VariableFont_wght.ttf"></file>
+          </directory>
+          <file name="fortmaticIcon.png"></file>
+          <file name="github.svg"></file>
+          <file name="iDAI-logo.png"></file>
+          <file name="icn-aethereum.svg"></file>
+          <file name="icn-ledger.svg"></file>
+          <file name="icn-metamask.svg"></file>
+          <file name="kybernetwork.png"></file>
+          <file name="ledger.png"></file>
+          <file name="lendf.png"></file>
+          <file name="lendf.svg"></file>
+          <file name="medium.svg"></file>
+          <file name="metamask.png"></file>
+          <file name="metamask.svg"></file>
+          <file name="oCurve-logo.svg"></file>
+          <file name="oneinch.svg"></file>
+          <file name="portisIcon.png"></file>
+          <file name="squarelink.png"></file>
+          <file name="synthetix.png"></file>
+          <file name="telegram.svg"></file>
+          <file name="torus.jpg"></file>
+          <file name="trezor.png"></file>
+          <file name="truffle.png"></file>
+          <file name="trustWallet.png"></file>
+          <file name="twitter.svg"></file>
+          <file name="uniswap.png"></file>
+          <file name="uniswap.svg"></file>
+          <file name="wBTC-icon.png"></file>
+          <file name="wBTC-logo.png"></file>
+          <file name="walletConnectIcon.svg"></file>
+          <file name="yCRV-logo.jpg"></file>
+          <file name="yCRV-logo.png"></file>
+          <file name="ycUSDC-logo.png"></file>
+          <file name="ycUSDT-logo.png"></file>
+        </directory>
+        <directory name="components">
+          <directory name="apr">
+            <file name="apr.jsx"></file>
+            <file name="package.json"></file>
+          </directory>
+          <directory name="builtwith">
+            <file name="builtwith.jsx"></file>
+            <file name="builtwithModal.jsx"></file>
+            <file name="package.json"></file>
+          </directory>
+          <directory name="dashboard">
+            <file name="dashboard.jsx"></file>
+            <file name="package.json"></file>
+          </directory>
+          <directory name="footer">
+            <file name="footer.jsx"></file>
+            <file name="package.json"></file>
+          </directory>
+          <directory name="header">
+            <file name="header.jsx"></file>
+            <file name="package.json"></file>
+          </directory>
+          <directory name="home">
+            <file name="home.jsx"></file>
+            <file name="package.json"></file>
+          </directory>
+          <directory name="idai">
+            <file name="conversionRatios.jsx"></file>
+            <file name="fees.jsx"></file>
+            <file name="have.jsx"></file>
+            <file name="idai.jsx"></file>
+            <file name="package.json"></file>
+            <file name="receiving.jsx"></file>
+            <file name="sending.jsx"></file>
+            <file name="want.jsx"></file>
+          </directory>
+          <directory name="insure">
+            <file name="insure.jsx"></file>
+            <file name="insuredAsset.jsx"></file>
+            <file name="package.json"></file>
+          </directory>
+          <directory name="invest">
+            <file name="collateral.jsx"></file>
+            <file name="invest.jsx"></file>
+            <file name="invested.jsx"></file>
+            <file name="package.json"></file>
+          </directory>
+          <directory name="investSimple">
+            <file name="asset.jsx"></file>
+            <file name="compAsset.jsx"></file>
+            <file name="investAllAsset.jsx"></file>
+            <file name="investAllModal.jsx"></file>
+            <file name="investModal.jsx"></file>
+            <file name="investSimple.jsx"></file>
+            <file name="package.json"></file>
+            <file name="redeemModal.jsx"></file>
+          </directory>
+          <directory name="loader">
+            <file name="loader.jsx"></file>
+            <file name="package.json"></file>
+          </directory>
+          <directory name="manage">
+            <file name="asset.jsx"></file>
+            <file name="investModal.jsx"></file>
+            <file name="manage.jsx"></file>
+            <file name="package.json"></file>
+            <file name="redeemModal.jsx"></file>
+          </directory>
+          <directory name="performance">
+            <file name="package.json"></file>
+            <file name="performance.jsx"></file>
+          </directory>
+          <directory name="snackbar">
+            <file name="package.json"></file>
+            <file name="snackbar.jsx"></file>
+          </directory>
+          <directory name="unlock">
+            <file name="hooks.jsx"></file>
+            <file name="package.json"></file>
+            <file name="unlock.jsx"></file>
+            <file name="unlockModal.jsx"></file>
+          </directory>
+          <directory name="vault">
+            <file name="asset.jsx"></file>
+            <file name="package.json"></file>
+            <file name="vault.jsx"></file>
+          </directory>
+          <directory name="zap">
+            <file name="conversionRatios.jsx"></file>
+            <file name="fees.jsx"></file>
+            <file name="have.jsx"></file>
+            <file name="package.json"></file>
+            <file name="receiving.jsx"></file>
+            <file name="sending.jsx"></file>
+            <file name="want.jsx"></file>
+            <file name="zap.jsx"></file>
+          </directory>
+        </directory>
+        <directory name="config">
+          <file name="config.jsx"></file>
+          <file name="development.config.js"></file>
+          <file name="example.config.js"></file>
+          <file name="package.json"></file>
+          <file name="production.config.js"></file>
+        </directory>
+        <directory name="constants">
+          <file name="constants.jsx"></file>
+          <file name="package.json"></file>
+        </directory>
+        <file name="i18n.js"></file>
+        <file name="index.css"></file>
+        <file name="index.js"></file>
+        <directory name="locales">
+          <directory name="en">
+            <file name="translation.json"></file>
+          </directory>
+          <directory name="ja">
+            <file name="translation.json"></file>
+          </directory>
+          <directory name="pt">
+            <file name="translation.json"></file>
+          </directory>
+          <directory name="zh">
+            <file name="translation.json"></file>
+          </directory>
+        </directory>
+        <file name="serviceWorker.js"></file>
+        <directory name="stores">
+          <file name="connectors.jsx"></file>
+          <file name="package.json"></file>
+          <file name="store.jsx"></file>
+        </directory>
+        <directory name="theme">
+          <file name="package.json"></file>
+          <file name="theme.jsx"></file>
+        </directory>
+      </directory>
+    </directory>
+    <directory name="ileverage-finance">
+      <file name="LICENSE"></file>
+      <file name="README.md"></file>
+      <file name="package.json"></file>
+      <directory name="public">
+        <file name="BAT-logo.png"></file>
+        <file name="DAI-logo.png"></file>
+        <file name="ETH-icon.png"></file>
+        <file name="FTM-logo.png"></file>
+        <file name="KNC-logo.png"></file>
+        <file name="LEND-logo.png"></file>
+        <file name="LINK-logo.png"></file>
+        <file name="MANA-logo.png"></file>
+        <file name="MKR-logo.png"></file>
+        <file name="REP-logo.png"></file>
+        <file name="SAI-logo.png"></file>
+        <file name="SNX-logo.png"></file>
+        <file name="SUSD-logo.png"></file>
+        <file name="TUSD-logo.png"></file>
+        <file name="USDC-icon.png"></file>
+        <file name="USDC-logo.png"></file>
+        <file name="USDT-icon.png"></file>
+        <file name="USDT-logo.png"></file>
+        <file name="ZRX-logo.png"></file>
+        <file name="aave.png"></file>
+        <file name="android-icon-144x144.png"></file>
+        <file name="android-icon-192x192.png"></file>
+        <file name="android-icon-36x36.png"></file>
+        <file name="android-icon-48x48.png"></file>
+        <file name="android-icon-72x72.png"></file>
+        <file name="android-icon-96x96.png"></file>
+        <file name="apple-icon-114x114.png"></file>
+        <file name="apple-icon-120x120.png"></file>
+        <file name="apple-icon-144x144.png"></file>
+        <file name="apple-icon-152x152.png"></file>
+        <file name="apple-icon-180x180.png"></file>
+        <file name="apple-icon-57x57.png"></file>
+        <file name="apple-icon-60x60.png"></file>
+        <file name="apple-icon-72x72.png"></file>
+        <file name="apple-icon-76x76.png"></file>
+        <file name="apple-icon-precomposed.png"></file>
+        <file name="apple-icon.png"></file>
+        <file name="browserconfig.xml"></file>
+        <file name="compound.png"></file>
+        <file name="defizap.png"></file>
+        <file name="etherscan.png"></file>
+        <file name="favicon-16x16.png"></file>
+        <file name="favicon-32x32.png"></file>
+        <file name="favicon-96x96.png"></file>
+        <file name="favicon.ico"></file>
+        <file name="favicon.png.png"></file>
+        <file name="fortmaticIcon.png"></file>
+        <file name="index.html"></file>
+        <file name="kybernetwork.png"></file>
+        <file name="ledger.png"></file>
+        <file name="lendf.png"></file>
+        <file name="manifest.json"></file>
+        <file name="metamask.png"></file>
+        <file name="ms-icon-144x144.png"></file>
+        <file name="ms-icon-150x150.png"></file>
+        <file name="ms-icon-310x310.png"></file>
+        <file name="ms-icon-70x70.png"></file>
+        <file name="portisIcon.png"></file>
+        <file name="squarelink.png"></file>
+        <file name="trezor.png"></file>
+        <file name="truffle.png"></file>
+        <file name="trustWallet.png"></file>
+        <file name="uniswap.png"></file>
+        <file name="wBTC-icon.png"></file>
+        <file name="wBTC-logo.png"></file>
+      </directory>
+      <directory name="src">
+        <file name="App.css"></file>
+        <file name="App.js"></file>
+        <file name="App.test.js"></file>
+        <directory name="assets">
+          <file name="BAT-logo.png"></file>
+          <file name="BTC-logo.png"></file>
+          <file name="BUSD-logo.png"></file>
+          <file name="CRV-icon.png"></file>
+          <file name="CRV-logo.jpg"></file>
+          <file name="CRV-logo.png"></file>
+          <file name="DAI-logo.png"></file>
+          <file name="ETH-icon.png"></file>
+          <file name="ETH-logo.png"></file>
+          <file name="FTM-logo.png"></file>
+          <file name="IEARN-icon.png"></file>
+          <file name="KNC-logo.png"></file>
+          <file name="LEND-logo.png"></file>
+          <file name="LINK-logo.png"></file>
+          <file name="MANA-logo.png"></file>
+          <file name="MKR-logo.png"></file>
+          <file name="REP-logo.png"></file>
+          <file name="SAI-logo.png"></file>
+          <file name="SNX-logo.png"></file>
+          <file name="SUSD-logo.png"></file>
+          <file name="TUSD-logo.png"></file>
+          <file name="USDC-icon.png"></file>
+          <file name="USDC-logo.png"></file>
+          <file name="USDT-icon.png"></file>
+          <file name="USDT-logo.png"></file>
+          <file name="ZRX-logo.png"></file>
+          <file name="aave.png"></file>
+          <file name="aave.svg"></file>
+          <file name="bzx.png"></file>
+          <file name="coinbaseWalletIcon.svg"></file>
+          <file name="compound.png"></file>
+          <file name="curvefi.jpg"></file>
+          <file name="ddex.jpg"></file>
+          <file name="ddex.png"></file>
+          <file name="defipulse.png"></file>
+          <file name="defisnap.svg"></file>
+          <file name="defizap.png"></file>
+          <file name="dydx.jpg"></file>
+          <file name="dydx.svg"></file>
+          <file name="ethereum.png"></file>
+          <file name="etherscan.png"></file>
+          <file name="fortmaticIcon.png"></file>
+          <file name="iDAI-logo.png"></file>
+          <file name="icn-aethereum.svg"></file>
+          <file name="icn-ledger.svg"></file>
+          <file name="icn-metamask.svg"></file>
+          <file name="kybernetwork.png"></file>
+          <file name="ledger.png"></file>
+          <file name="lendf.png"></file>
+          <file name="lendf.svg"></file>
+          <file name="metamask.png"></file>
+          <file name="metamask.svg"></file>
+          <file name="oCurve-logo.svg"></file>
+          <file name="oneinch.svg"></file>
+          <file name="portisIcon.png"></file>
+          <file name="squarelink.png"></file>
+          <file name="synthetix.png"></file>
+          <file name="torus.jpg"></file>
+          <file name="trezor.png"></file>
+          <file name="truffle.png"></file>
+          <file name="trustWallet.png"></file>
+          <file name="uniswap.png"></file>
+          <file name="uniswap.svg"></file>
+          <file name="wBTC-icon.png"></file>
+          <file name="wBTC-logo.png"></file>
+          <file name="walletConnectIcon.svg"></file>
+        </directory>
+        <directory name="components">
+          <directory name="close">
+            <file name="close.jsx"></file>
+            <file name="package.json"></file>
+            <file name="positionAsset.jsx"></file>
+          </directory>
+          <directory name="footer">
+            <file name="footer.jsx"></file>
+            <file name="package.json"></file>
+          </directory>
+          <directory name="home">
+            <file name="home.jsx"></file>
+            <file name="package.json"></file>
+          </directory>
+          <directory name="loader">
+            <file name="loader.jsx"></file>
+            <file name="package.json"></file>
+          </directory>
+          <directory name="open">
+            <file name="have.jsx"></file>
+            <file name="leverage.jsx"></file>
+            <file name="open.jsx"></file>
+            <file name="package.json"></file>
+            <file name="want.jsx"></file>
+          </directory>
+          <directory name="snackbar">
+            <file name="package.json"></file>
+            <file name="snackbar.jsx"></file>
+          </directory>
+          <directory name="unlock">
+            <file name="hooks.jsx"></file>
+            <file name="package.json"></file>
+            <file name="unlock.jsx"></file>
+            <file name="unlockModal.jsx"></file>
+          </directory>
+        </directory>
+        <directory name="config">
+          <file name="config.jsx"></file>
+          <file name="development.config.js"></file>
+          <file name="example.config.js"></file>
+          <file name="package.json"></file>
+          <file name="production.config.js"></file>
+        </directory>
+        <directory name="constants">
+          <file name="constants.jsx"></file>
+          <file name="package.json"></file>
+        </directory>
+        <file name="i18n.js"></file>
+        <file name="index.css"></file>
+        <file name="index.js"></file>
+        <directory name="locales">
+          <directory name="en">
+            <file name="translation.json"></file>
+          </directory>
+          <directory name="ja">
+            <file name="translation.json"></file>
+          </directory>
+          <directory name="zh">
+            <file name="translation.json"></file>
+          </directory>
+        </directory>
+        <file name="serviceWorker.js"></file>
+        <directory name="stores">
+          <file name="connectors.jsx"></file>
+          <file name="package.json"></file>
+          <file name="store.jsx"></file>
+        </directory>
+        <directory name="theme">
+          <file name="package.json"></file>
+          <file name="theme.jsx"></file>
+        </directory>
+      </directory>
+    </directory>
+    <directory name="iliquidate-finance">
+      <file name="LICENSE"></file>
+      <file name="README.md"></file>
+      <file name="package.json"></file>
+      <directory name="public">
+        <file name="BAT-logo.png"></file>
+        <file name="DAI-logo.png"></file>
+        <file name="ETH-icon.png"></file>
+        <file name="FTM-logo.png"></file>
+        <file name="KNC-logo.png"></file>
+        <file name="LEND-logo.png"></file>
+        <file name="LINK-logo.png"></file>
+        <file name="MANA-logo.png"></file>
+        <file name="MKR-logo.png"></file>
+        <file name="REP-logo.png"></file>
+        <file name="SAI-logo.png"></file>
+        <file name="SNX-logo.png"></file>
+        <file name="SUSD-logo.png"></file>
+        <file name="TUSD-logo.png"></file>
+        <file name="USDC-icon.png"></file>
+        <file name="USDC-logo.png"></file>
+        <file name="USDT-icon.png"></file>
+        <file name="USDT-logo.png"></file>
+        <file name="ZRX-logo.png"></file>
+        <file name="aave.png"></file>
+        <file name="android-icon-144x144.png"></file>
+        <file name="android-icon-192x192.png"></file>
+        <file name="android-icon-36x36.png"></file>
+        <file name="android-icon-48x48.png"></file>
+        <file name="android-icon-72x72.png"></file>
+        <file name="android-icon-96x96.png"></file>
+        <file name="apple-icon-114x114.png"></file>
+        <file name="apple-icon-120x120.png"></file>
+        <file name="apple-icon-144x144.png"></file>
+        <file name="apple-icon-152x152.png"></file>
+        <file name="apple-icon-180x180.png"></file>
+        <file name="apple-icon-57x57.png"></file>
+        <file name="apple-icon-60x60.png"></file>
+        <file name="apple-icon-72x72.png"></file>
+        <file name="apple-icon-76x76.png"></file>
+        <file name="apple-icon-precomposed.png"></file>
+        <file name="apple-icon.png"></file>
+        <file name="browserconfig.xml"></file>
+        <file name="compound.png"></file>
+        <file name="defizap.png"></file>
+        <file name="etherscan.png"></file>
+        <file name="favicon-16x16.png"></file>
+        <file name="favicon-32x32.png"></file>
+        <file name="favicon-96x96.png"></file>
+        <file name="favicon.ico"></file>
+        <file name="favicon.png.png"></file>
+        <file name="fortmaticIcon.png"></file>
+        <file name="index.html"></file>
+        <file name="kybernetwork.png"></file>
+        <file name="ledger.png"></file>
+        <file name="lendf.png"></file>
+        <file name="manifest.json"></file>
+        <file name="metamask.png"></file>
+        <file name="ms-icon-144x144.png"></file>
+        <file name="ms-icon-150x150.png"></file>
+        <file name="ms-icon-310x310.png"></file>
+        <file name="ms-icon-70x70.png"></file>
+        <file name="portisIcon.png"></file>
+        <file name="squarelink.png"></file>
+        <file name="trezor.png"></file>
+        <file name="truffle.png"></file>
+        <file name="trustWallet.png"></file>
+        <file name="uniswap.png"></file>
+        <file name="wBTC-icon.png"></file>
+        <file name="wBTC-logo.png"></file>
+      </directory>
+      <directory name="src">
+        <file name="App.css"></file>
+        <file name="App.js"></file>
+        <file name="App.test.js"></file>
+        <directory name="assets">
+          <file name="BAT-logo.png"></file>
+          <file name="BUSD-logo.png"></file>
+          <file name="CRV-icon.png"></file>
+          <file name="CRV-logo.jpg"></file>
+          <file name="CRV-logo.png"></file>
+          <file name="DAI-logo.png"></file>
+          <file name="ETH-icon.png"></file>
+          <file name="ETH-logo.png"></file>
+          <file name="FTM-logo.png"></file>
+          <file name="IEARN-icon.png"></file>
+          <file name="KNC-logo.png"></file>
+          <file name="LEND-logo.png"></file>
+          <file name="LINK-logo.png"></file>
+          <file name="MANA-logo.png"></file>
+          <file name="MKR-logo.png"></file>
+          <file name="REP-logo.png"></file>
+          <file name="SAI-logo.png"></file>
+          <file name="SNX-logo.png"></file>
+          <file name="SUSD-logo.png"></file>
+          <file name="TUSD-logo.png"></file>
+          <file name="USDC-icon.png"></file>
+          <file name="USDC-logo.png"></file>
+          <file name="USDT-icon.png"></file>
+          <file name="USDT-logo.png"></file>
+          <file name="ZRX-logo.png"></file>
+          <file name="aave.png"></file>
+          <file name="aave.svg"></file>
+          <file name="bzx.png"></file>
+          <file name="coinbaseWalletIcon.svg"></file>
+          <file name="compound.png"></file>
+          <file name="curvefi.jpg"></file>
+          <file name="ddex.jpg"></file>
+          <file name="ddex.png"></file>
+          <file name="defipulse.png"></file>
+          <file name="defisnap.svg"></file>
+          <file name="defizap.png"></file>
+          <file name="dydx.jpg"></file>
+          <file name="dydx.svg"></file>
+          <file name="ethereum.png"></file>
+          <file name="etherscan.png"></file>
+          <file name="fortmaticIcon.png"></file>
+          <file name="iDAI-logo.png"></file>
+          <file name="icn-aethereum.svg"></file>
+          <file name="icn-ledger.svg"></file>
+          <file name="icn-metamask.svg"></file>
+          <file name="kybernetwork.png"></file>
+          <file name="ledger.png"></file>
+          <file name="lendf.png"></file>
+          <file name="lendf.svg"></file>
+          <file name="metamask.png"></file>
+          <file name="metamask.svg"></file>
+          <file name="oCurve-logo.svg"></file>
+          <file name="oneinch.svg"></file>
+          <file name="portisIcon.png"></file>
+          <file name="squarelink.png"></file>
+          <file name="synthetix.png"></file>
+          <file name="torus.jpg"></file>
+          <file name="trezor.png"></file>
+          <file name="truffle.png"></file>
+          <file name="trustWallet.png"></file>
+          <file name="uniswap.png"></file>
+          <file name="uniswap.svg"></file>
+          <file name="wBTC-icon.png"></file>
+          <file name="wBTC-logo.png"></file>
+          <file name="walletConnectIcon.svg"></file>
+        </directory>
+        <directory name="components">
+          <directory name="collateral">
+            <file name="collateral.jsx"></file>
+            <directory name="deposit">
+              <file name="deposit.jsx"></file>
+              <file name="package.json"></file>
+            </directory>
+            <file name="package.json"></file>
+            <directory name="withdraw">
+              <file name="package.json"></file>
+              <file name="withdraw.jsx"></file>
+            </directory>
+          </directory>
+          <directory name="footer">
+            <file name="footer.jsx"></file>
+            <file name="package.json"></file>
+          </directory>
+          <directory name="home">
+            <file name="home.jsx"></file>
+            <file name="package.json"></file>
+          </directory>
+          <directory name="liquidate">
+            <file name="liquidate.jsx"></file>
+            <file name="package.json"></file>
+          </directory>
+          <directory name="liquidationCandidates">
+            <file name="liquidateCandidates.jsx"></file>
+            <file name="package.json"></file>
+          </directory>
+          <directory name="loader">
+            <file name="loader.jsx"></file>
+            <file name="package.json"></file>
+          </directory>
+          <directory name="snackbar">
+            <file name="package.json"></file>
+            <file name="snackbar.jsx"></file>
+          </directory>
+          <directory name="trade">
+            <file name="asset.jsx"></file>
+            <file name="package.json"></file>
+            <file name="trade.jsx"></file>
+          </directory>
+          <directory name="unlock">
+            <file name="hooks.jsx"></file>
+            <file name="package.json"></file>
+            <file name="unlock.jsx"></file>
+            <file name="unlockModal.jsx"></file>
+          </directory>
+        </directory>
+        <directory name="config">
+          <file name="config.jsx"></file>
+          <file name="development.config.js"></file>
+          <file name="example.config.js"></file>
+          <file name="package.json"></file>
+          <file name="production.config.js"></file>
+        </directory>
+        <directory name="constants">
+          <file name="constants.jsx"></file>
+          <file name="package.json"></file>
+        </directory>
+        <file name="i18n.js"></file>
+        <file name="index.css"></file>
+        <file name="index.js"></file>
+        <directory name="locales">
+          <directory name="en">
+            <file name="translation.json"></file>
+          </directory>
+          <directory name="ja">
+            <file name="translation.json"></file>
+          </directory>
+          <directory name="zh">
+            <file name="translation.json"></file>
+          </directory>
+        </directory>
+        <file name="serviceWorker.js"></file>
+        <directory name="stores">
+          <file name="connectors.jsx"></file>
+          <file name="package.json"></file>
+          <file name="store.jsx"></file>
+        </directory>
+        <directory name="theme">
+          <file name="package.json"></file>
+          <file name="theme.jsx"></file>
+        </directory>
+      </directory>
+    </directory>
+    <directory name="itoken">
+      <file name="LICENSE"></file>
+      <file name="README.md"></file>
+      <directory name="build">
+        <directory name="contracts">
+          <file name="AToken.json"></file>
+          <file name="Aave.json"></file>
+          <file name="AaveLiquidate.json"></file>
+          <file name="Address.json"></file>
+          <file name="Compound.json"></file>
+          <file name="Context.json"></file>
+          <file name="CurveFi.json"></file>
+          <file name="CurveFlash.json"></file>
+          <file name="CurveFlashDAI.json"></file>
+          <file name="CurveRebalance.json"></file>
+          <file name="DyDx.json"></file>
+          <file name="ERC20.json"></file>
+          <file name="ERC20Detailed.json"></file>
+          <file name="Fulcrum.json"></file>
+          <file name="ICurveFi.json"></file>
+          <file name="ICurveFiv1.json"></file>
+          <file name="ICurveFiv2.json"></file>
+          <file name="ICurveFiv3.json"></file>
+          <file name="ICurveFiv4.json"></file>
+          <file name="IERC20.json"></file>
+          <file name="IEther.json"></file>
+          <file name="IIEarnManager.json"></file>
+          <file name="IIEther.json"></file>
+          <file name="ILendingPoolAddressesProvider.json"></file>
+          <file name="IOneSplitInterface.json"></file>
+          <file name="IyCRV.json"></file>
+          <file name="IyDAI.json"></file>
+          <file name="LendingPoolAddressesProvider.json"></file>
+          <file name="LiquidationOracle.json"></file>
+          <file name="Migrations.json"></file>
+          <file name="OneSplit.json"></file>
+          <file name="OptionsContract.json"></file>
+          <file name="Oracle.json"></file>
+          <file name="Ownable.json"></file>
+          <file name="ReentrancyGuard.json"></file>
+          <file name="SafeERC20.json"></file>
+          <file name="SafeMath.json"></file>
+          <file name="Structs.json"></file>
+          <file name="UniSwap_ETH_CDAIZap.json"></file>
+          <file name="Uniswap.json"></file>
+          <file name="WETH.json"></file>
+          <file name="busdCurveFlashDAI.json"></file>
+          <file name="busdCurveGrantPool.json"></file>
+          <file name="iDAIZapSwap.json"></file>
+          <file name="oCurveFlashLiquidate.json"></file>
+          <file name="oCurveLiquidate.json"></file>
+          <file name="sCurveFi.json"></file>
+          <file name="yBUSD.json"></file>
+          <file name="yCRV.json"></file>
+          <file name="yCurveBalances.json"></file>
+          <file name="yCurveExchange.json"></file>
+          <file name="yCurveFi.json"></file>
+          <file name="yCurveGrantPool.json"></file>
+          <file name="yCurveZap.json"></file>
+          <file name="yCurveZapIn.json"></file>
+          <file name="yCurveZapInV4.json"></file>
+          <file name="yCurveZapOut.json"></file>
+          <file name="yCurveZapOutV4.json"></file>
+          <file name="yCurveZapSwap.json"></file>
+          <file name="yCurveZapSwapV4.json"></file>
+          <file name="yCurveZapSwapV4toV3.json"></file>
+          <file name="yCurveZapv1.json"></file>
+          <file name="yDAI.json"></file>
+          <file name="yDAIv2Proxy.json"></file>
+          <file name="yERC20.json"></file>
+          <file name="ySUSD.json"></file>
+          <file name="yTUSD.json"></file>
+          <file name="yTokenRebalance.json"></file>
+          <file name="yUSDC.json"></file>
+          <file name="yUSDT.json"></file>
+          <file name="yWBTC.json"></file>
+        </directory>
+      </directory>
+      <directory name="contracts">
+        <file name="AaveLiquidate.sol"></file>
+        <file name="CurveFlash.sol"></file>
+        <file name="CurveFlashDAI.sol"></file>
+        <file name="CurveRebalance.sol"></file>
+        <file name="IEther.sol"></file>
+        <file name="IIEther.sol"></file>
+        <file name="IYCRV.sol"></file>
+        <file name="IYDAI.sol"></file>
+        <file name="LiquidationOracle.sol"></file>
+        <file name="Migrations.sol"></file>
+        <file name="YBUSDv3.sol"></file>
+        <file name="YCRV.sol"></file>
+        <file name="YDAI.sol"></file>
+        <file name="YDAIv2.sol"></file>
+        <file name="YDAIv2Proxy.sol"></file>
+        <file name="YDAIv3.sol"></file>
+        <file name="YDAIv4.sol"></file>
+        <file name="YSNX.isol"></file>
+        <file name="YSUSD.sol"></file>
+        <file name="YSUSDv2.sol"></file>
+        <file name="YTUSDv2.sol"></file>
+        <file name="YUSDC.sol"></file>
+        <file name="YUSDCv2.sol"></file>
+        <file name="YUSDCv3.sol"></file>
+        <file name="YUSDT.sol"></file>
+        <file name="YUSDTv2.sol"></file>
+        <file name="YUSDTv3.sol"></file>
+        <file name="YWBTC.sol"></file>
+        <file name="YWBTCv2.sol"></file>
+        <file name="busdCurveFlashDAI.sol"></file>
+        <file name="busdCurveGrantPool.sol"></file>
+        <file name="iDAIZapSwap.sol"></file>
+        <file name="oCurveFlashLiquidate.sol"></file>
+        <file name="oCurveLiquidate.sol"></file>
+        <file name="yCurveBalances.sol"></file>
+        <file name="yCurveExchange.sol"></file>
+        <file name="yCurveGrantPool.sol"></file>
+        <file name="yCurveRebalance.sol"></file>
+        <file name="yCurveZapIn.sol"></file>
+        <file name="yCurveZapInV4.sol"></file>
+        <file name="yCurveZapOut.sol"></file>
+        <file name="yCurveZapOutV4.sol"></file>
+        <file name="yCurveZapSwap.sol"></file>
+        <file name="yCurveZapSwapV4.sol"></file>
+        <file name="yCurveZapSwapV4toV3.sol"></file>
+      </directory>
+      <directory name="docs">
+        <file name="index.md"></file>
+      </directory>
+      <directory name="migrations">
+        <file name="1_initial_migration.js"></file>
+      </directory>
+      <file name="package-lock.json"></file>
+      <file name="package.json"></file>
+      <directory name="test">
+        <file name="IToken.js"></file>
+      </directory>
+      <file name="trace.json"></file>
+      <file name="truffle-config.js"></file>
+    </directory>
+    <directory name="uniswap-roi">
+      <file name="LICENSE"></file>
+      <file name="README.md"></file>
+      <directory name="build">
+        <directory name="contracts">
+          <file name="APRWithPoolOracle.json"></file>
+          <file name="Address.json"></file>
+          <file name="Context.json"></file>
+          <file name="IAPROracle.json"></file>
+          <file name="ICurveFi.json"></file>
+          <file name="IERC20.json"></file>
+          <file name="IEarnAPR.json"></file>
+          <file name="IEarnAPRWithPool.json"></file>
+          <file name="IEarnManager.json"></file>
+          <file name="IEarnProvider.json"></file>
+          <file name="IIEarnAPR.json"></file>
+          <file name="IIEarnManager.json"></file>
+          <file name="IUniswapAPR.json"></file>
+          <file name="IUniswapROI.json"></file>
+          <file name="IYToken.json"></file>
+          <file name="IuniswapExchange.json"></file>
+          <file name="IuniswapFactory.json"></file>
+          <file name="Iy.json"></file>
+          <file name="Migrations.json"></file>
+          <file name="Ownable.json"></file>
+          <file name="SafeMath.json"></file>
+          <file name="UniswapAPR.json"></file>
+          <file name="UniswapROI.json"></file>
+        </directory>
+      </directory>
+      <directory name="contracts">
+        <file name="ICurveFi.sol"></file>
+        <file name="IEarnAPR.sol"></file>
+        <file name="IEarnAPRWithPool.sol"></file>
+        <file name="IEarnManager.sol"></file>
+        <file name="IEarnManagerWithPool.sol"></file>
+        <file name="IEarnProvider.sol"></file>
+        <file name="IIEarnAPR.sol"></file>
+        <file name="IIEarnManager.sol"></file>
+        <file name="IUniswapAPR.sol"></file>
+        <file name="IUniswapROI.sol"></file>
+        <file name="Migrations.sol"></file>
+        <file name="UniswapAPR.sol"></file>
+        <file name="UniswapROI.sol"></file>
+      </directory>
+      <directory name="migrations">
+        <file name="1_initial_migration.js"></file>
+      </directory>
+      <file name="package.json"></file>
+      <directory name="test">
+        <file name="UniswapAPR.js"></file>
+      </directory>
+    </directory>
+    <directory name="vaults">
+      <file name="LICENSE"></file>
+      <file name="brownie-config.yaml"></file>
+      <directory name="contracts">
+        <file name="IController.sol"></file>
+        <file name="IStrategy.sol"></file>
+        <file name="IVault.sol"></file>
+        <directory name="controllers">
+          <file name="StrategyControllerV1.sol"></file>
+          <file name="StrategyControllerV2.sol"></file>
+        </directory>
+        <directory name="strategies">
+          <file name="StrategyCurveYCRV.sol"></file>
+          <file name="StrategyCurveYCRVVoter.sol"></file>
+          <file name="StrategyDForceDAI.sol"></file>
+          <file name="StrategyDForceUSDC.sol"></file>
+          <file name="StrategyDForceUSDT.sol"></file>
+          <file name="StrategyMStableSavingsTUSD.sol"></file>
+          <file name="StrategyMStableSavingsUSDC.sol"></file>
+          <file name="StrategyVaultTUSD.sol"></file>
+          <file name="StrategyVaultUSDC.sol"></file>
+          <file name="StrategyYFII.sol"></file>
+        </directory>
+        <directory name="test">
+          <file name="Token.sol"></file>
+        </directory>
+        <directory name="vaults">
+          <file name="yDelegatedVault.sol"></file>
+          <file name="yVault.sol"></file>
+        </directory>
+      </directory>
+      <directory name="interfaces">
+        <file name="Aave.sol"></file>
+        <file name="Balancer.sol"></file>
+        <file name="Converter.sol"></file>
+        <file name="Curve.sol"></file>
+        <file name="DForce.sol"></file>
+        <file name="Gauge.sol"></file>
+        <file name="MStable.sol"></file>
+        <file name="OneSplitAudit.sol"></file>
+        <file name="Uniswap.sol"></file>
+        <file name="Yfii.sol"></file>
+      </directory>
+      <file name="requirements.txt"></file>
+      <directory name="tests">
+        <directory name="configuration">
+          <file name="conftest.py"></file>
+          <file name="test_controllers.py"></file>
+          <file name="test_strategies.py"></file>
+          <file name="test_vaults.py"></file>
+        </directory>
+      </directory>
+    </directory>
+    <directory name="ychad-audit">
+      <file name="brownie-config.yaml"></file>
+      <directory name="interfaces">
+        <file name="ERC20.json"></file>
+      </directory>
+      <file name="license"></file>
+      <file name="readme.md"></file>
+      <directory name="reports">
+        <directory name="financial">
+          <file name="2020-08-budget-report.csv"></file>
+          <file name="2020-09-budget-report.csv"></file>
+          <file name="2020-10-budget-report.csv"></file>
+          <file name="readme.md"></file>
+        </directory>
+        <directory name="gas">
+          <file name="10500302-11043216-multisig.csv"></file>
+          <file name="readme.md"></file>
+          <file name="reimbursements.csv"></file>
+        </directory>
+        <file name="multisig.csv"></file>
+        <file name="ychad-audit.csv"></file>
+      </directory>
+      <file name="requirements.txt"></file>
+      <directory name="scripts">
+        <file name="ychad.py"></file>
+      </directory>
+    </directory>
+    <directory name="ycredit-finance">
+      <file name="LICENSE"></file>
+      <file name="README.md"></file>
+      <file name="package-lock.json"></file>
+      <file name="package.json"></file>
+      <directory name="public">
+        <file name="android-icon-144x144.png"></file>
+        <file name="android-icon-192x192.png"></file>
+        <file name="android-icon-36x36.png"></file>
+        <file name="android-icon-48x48.png"></file>
+        <file name="android-icon-72x72.png"></file>
+        <file name="android-icon-96x96.png"></file>
+        <file name="apple-icon-114x114.png"></file>
+        <file name="apple-icon-120x120.png"></file>
+        <file name="apple-icon-144x144.png"></file>
+        <file name="apple-icon-152x152.png"></file>
+        <file name="apple-icon-180x180.png"></file>
+        <file name="apple-icon-57x57.png"></file>
+        <file name="apple-icon-60x60.png"></file>
+        <file name="apple-icon-72x72.png"></file>
+        <file name="apple-icon-76x76.png"></file>
+        <file name="apple-icon-precomposed.png"></file>
+        <file name="apple-icon.png"></file>
+        <file name="browserconfig.xml"></file>
+        <file name="favicon-16x16.png"></file>
+        <file name="favicon-32x32.png"></file>
+        <file name="favicon-96x96.png"></file>
+        <file name="favicon.png.png"></file>
+        <file name="index.html"></file>
+        <file name="manifest.json"></file>
+        <file name="ms-icon-144x144.png"></file>
+        <file name="ms-icon-150x150.png"></file>
+        <file name="ms-icon-310x310.png"></file>
+        <file name="ms-icon-70x70.png"></file>
+      </directory>
+      <directory name="src">
+        <file name="App.css"></file>
+        <file name="App.js"></file>
+        <file name="App.test.js"></file>
+        <directory name="assets">
+          <file name="YFI-logo.png"></file>
+          <directory name="connectors">
+            <file name="coinbaseWalletIcon.svg"></file>
+            <file name="fortmaticIcon.png"></file>
+            <file name="icn-aethereum.svg"></file>
+            <file name="icn-ledger.svg"></file>
+            <file name="icn-metamask.svg"></file>
+            <file name="ledger.png"></file>
+            <file name="metamask.png"></file>
+            <file name="portisIcon.png"></file>
+            <file name="squarelink.png"></file>
+            <file name="torus.jpg"></file>
+            <file name="trezor.png"></file>
+            <file name="trustWallet.png"></file>
+            <file name="walletConnectIcon.svg"></file>
+          </directory>
+          <directory name="fonts">
+            <file name="WorkSans-VariableFont_wght.ttf"></file>
+          </directory>
+          <directory name="socials">
+            <file name="discord.svg"></file>
+            <file name="github.svg"></file>
+            <file name="medium.svg"></file>
+            <file name="telegram.svg"></file>
+            <file name="twitter.svg"></file>
+          </directory>
+          <directory name="tokens">
+            <file name="DAI-logo.png"></file>
+            <file name="ETH-logo.png"></file>
+            <file name="TUSD-logo.png"></file>
+            <file name="USDC-logo.png"></file>
+            <file name="USDT-logo.png"></file>
+          </directory>
+        </directory>
+        <directory name="components">
+          <directory name="account">
+            <file name="account.jsx"></file>
+            <file name="package.json"></file>
+          </directory>
+          <directory name="collateral">
+            <file name="asset.jsx"></file>
+            <file name="collateral.jsx"></file>
+            <file name="package.json"></file>
+          </directory>
+          <directory name="disclaimer">
+            <file name="disclaimer.jsx"></file>
+            <file name="package.json"></file>
+          </directory>
+          <directory name="footer">
+            <file name="footer.jsx"></file>
+            <file name="package.json"></file>
+          </directory>
+          <directory name="header">
+            <file name="header.jsx"></file>
+            <file name="package.json"></file>
+          </directory>
+          <directory name="home">
+            <file name="home.jsx"></file>
+            <file name="package.json"></file>
+          </directory>
+          <directory name="lending">
+            <file name="lending.jsx"></file>
+            <file name="package.json"></file>
+          </directory>
+          <directory name="liquidity">
+            <file name="liquidity.jsx"></file>
+            <file name="package.json"></file>
+          </directory>
+          <directory name="loader">
+            <file name="loader.jsx"></file>
+            <file name="package.json"></file>
+          </directory>
+          <directory name="snackbar">
+            <file name="package.json"></file>
+            <file name="snackbar.jsx"></file>
+            <file name="snackbarController.jsx"></file>
+          </directory>
+          <directory name="unlock">
+            <file name="hooks.jsx"></file>
+            <file name="package.json"></file>
+            <file name="unlock.jsx"></file>
+            <file name="unlockModal.jsx"></file>
+          </directory>
+        </directory>
+        <directory name="config">
+          <file name="config.jsx"></file>
+          <file name="development.config.js"></file>
+          <file name="example.config.js"></file>
+          <file name="package.json"></file>
+          <file name="production.config.js"></file>
+        </directory>
+        <directory name="constants">
+          <file name="constants.jsx"></file>
+          <file name="package.json"></file>
+        </directory>
+        <file name="i18n.js"></file>
+        <file name="index.css"></file>
+        <file name="index.js"></file>
+        <file name="serviceWorker.js"></file>
+        <directory name="stores">
+          <file name="connectors.jsx"></file>
+          <file name="package.json"></file>
+          <file name="store.jsx"></file>
+        </directory>
+        <directory name="theme">
+          <file name="package.json"></file>
+          <file name="theme.jsx"></file>
+        </directory>
+      </directory>
+    </directory>
+    <directory name="yearn-audits">
+      <file name="Certik - itoken-finance-audit-report-1.1.0.pdf"></file>
+      <file name="CryptoManiacs  - Audit of iearn.finance by CryptoManiacs - HackMD.pdf"></file>
+      <file name="MixBytes - Timeloans.Finance Smart Contract Security Audit Report.pdf"></file>
+      <file name="MixBytes - Yearn.Finance protocol v.1 Smart Contracts Audit Security Audit Report.pdf"></file>
+      <file name="Quantstamp - Yearn.Finance Security Review.pdf"></file>
+      <file name="StrategyCurveYCRV.sol - HackMD.pdf"></file>
+      <file name="YearnV2_ our gotcha notes - HackMD.pdf"></file>
+    </directory>
+    <directory name="yearn-exporter">
+      <file name="brownie-config.yaml"></file>
+      <directory name="interfaces">
+        <file name="ERC20.json"></file>
+        <file name="YRegistry.json"></file>
+        <directory name="controllers">
+          <file name="ControllerV1.json"></file>
+          <file name="ControllerV2.json"></file>
+        </directory>
+        <directory name="curve">
+          <file name="CurveGauge.json"></file>
+          <file name="CurveGaugeController.json"></file>
+          <file name="CurveRegistry.json"></file>
+          <file name="CurveSwap.json"></file>
+          <file name="CurveVotingEscrow.json"></file>
+        </directory>
+        <directory name="strategies">
+          <file name="CurveYCRVVoter.json"></file>
+          <file name="LeveragedDaiCompStrategyV2.json"></file>
+          <file name="StrategyCreamCRV.json"></file>
+          <file name="StrategyCreamYFI.json"></file>
+          <file name="StrategyCurve3CrvVoterProxy.json"></file>
+          <file name="StrategyCurveBTCVoterProxy.json"></file>
+          <file name="StrategyCurveBUSDVoterProxy.json"></file>
+          <file name="StrategyCurveGUSDProxy.json"></file>
+          <file name="StrategyCurveSBTC.json"></file>
+          <file name="StrategyCurveYCRVVoter.json"></file>
+          <file name="StrategyCurveYVoterProxy.json"></file>
+          <file name="StrategyDAICurve.json"></file>
+          <file name="StrategyDForceUSDC.json"></file>
+          <file name="StrategyDForceUSDT.json"></file>
+          <file name="StrategyHegic.json"></file>
+          <file name="StrategyMKRVaultDAIDelegate.json"></file>
+          <file name="StrategyProxy.json"></file>
+          <file name="StrategyTUSDCurve.json"></file>
+          <file name="StrategyUniswapPairPickle.json"></file>
+          <file name="StrategyVaultUSDC.json"></file>
+          <file name="StrategyYFIGovernance.json"></file>
+          <file name="YearnWethCreamStratV2.json"></file>
+        </directory>
+        <directory name="uniswap">
+          <file name="UniswapFactory.json"></file>
+          <file name="UniswapPair.json"></file>
+          <file name="UniswapRouter.json"></file>
+        </directory>
+        <directory name="vaults">
+          <file name="Vault.json"></file>
+          <file name="yDelegatedVault.json"></file>
+          <file name="yVault.json"></file>
+          <file name="yWrappedVault.json"></file>
+          <file name="yveCurveVault.json"></file>
+        </directory>
+        <directory name="yearn">
+          <file name="YearnGovernance.json"></file>
+        </directory>
+      </directory>
+      <file name="license"></file>
+      <file name="pyproject.toml"></file>
+      <file name="readme.md"></file>
+      <directory name="scripts">
+        <file name="yearn.py"></file>
+      </directory>
+      <directory name="yearn">
+        <file name="constants.py"></file>
+        <file name="curve.py"></file>
+        <file name="strategies.py"></file>
+        <file name="uniswap.py"></file>
+        <file name="vaults.py"></file>
+        <file name="vaults_v2.py"></file>
+      </directory>
+    </directory>
+    <directory name="yearn-protocol">
+      <file name="CONTRIBUTING.md"></file>
+      <file name="LICENSE"></file>
+      <file name="README.md"></file>
+      <file name="SECURITY.md"></file>
+      <file name="brownie-config.yaml"></file>
+      <file name="commitlint.config.js"></file>
+      <directory name="contracts">
+        <directory name="controllers">
+          <file name="Controller.sol"></file>
+          <file name="DelegatedController.sol"></file>
+        </directory>
+        <directory name="exploits">
+          <file name="EvilGauge.sol"></file>
+        </directory>
+        <directory name="registries">
+          <file name="YRegistry.sol"></file>
+        </directory>
+        <directory name="strategies">
+          <file name="CurveYCRVVoter.sol"></file>
+          <file name="StrategyCreamYFI.sol"></file>
+          <file name="StrategyCurve3CrvVoterProxy.sol"></file>
+          <file name="StrategyCurveBTCVoterProxy.sol"></file>
+          <file name="StrategyCurveBUSDVoterProxy.sol"></file>
+          <file name="StrategyCurveYVoterProxy.sol"></file>
+          <file name="StrategyDAICurve.sol"></file>
+          <file name="StrategyDForceUSDC.sol"></file>
+          <file name="StrategyDForceUSDT.sol"></file>
+          <file name="StrategyMKRVaultDAIDelegate.sol"></file>
+          <file name="StrategyProxy.sol"></file>
+          <file name="StrategyTUSDCurve.sol"></file>
+          <file name="StrategyVaultUSDC.sol"></file>
+          <file name="StrategyYFIGovernance.sol"></file>
+        </directory>
+        <directory name="test">
+          <file name="Token.sol"></file>
+        </directory>
+        <directory name="utils">
+          <file name="BTCOSMedianizer.sol"></file>
+          <file name="ETHOSMedianizer.sol"></file>
+        </directory>
+        <directory name="vaults">
+          <file name="yDelegatedVault.sol"></file>
+          <file name="yVault.sol"></file>
+          <file name="yWETH.sol"></file>
+        </directory>
+      </directory>
+      <directory name="interfaces">
+        <directory name="aave">
+          <file name="Aave.sol"></file>
+          <file name="AaveToken.sol"></file>
+          <file name="LendingPoolAddressesProvider.sol"></file>
+          <file name="Oracle.sol"></file>
+        </directory>
+        <directory name="compound">
+          <file name="Token.sol"></file>
+        </directory>
+        <directory name="cream">
+          <file name="Controller.sol"></file>
+        </directory>
+        <directory name="curve">
+          <file name="Curve.sol"></file>
+          <file name="Gauge.sol"></file>
+          <file name="Mintr.sol"></file>
+          <file name="VoteEscrow.sol"></file>
+        </directory>
+        <directory name="dforce">
+          <file name="Rewards.sol"></file>
+          <file name="Token.sol"></file>
+        </directory>
+        <directory name="maker">
+          <file name="Maker.sol"></file>
+          <file name="OracleSecurityModule.sol"></file>
+        </directory>
+        <directory name="uniswap">
+          <file name="Uni.sol"></file>
+        </directory>
+        <directory name="weth">
+          <file name="WETH.sol"></file>
+        </directory>
+        <directory name="yearn">
+          <file name="IController.sol"></file>
+          <file name="IConverter.sol"></file>
+          <file name="IDelegatedVault.sol"></file>
+          <file name="IGovernance.sol"></file>
+          <file name="IOneSplitAudit.sol"></file>
+          <file name="IProxy.sol"></file>
+          <file name="IStrategy.sol"></file>
+          <file name="IToken.sol"></file>
+          <file name="IVault.sol"></file>
+          <file name="IVoterProxy.sol"></file>
+          <file name="IWrappedVault.sol"></file>
+        </directory>
+      </directory>
+      <file name="package.json"></file>
+      <file name="requirements-dev.txt"></file>
+      <directory name="tests">
+        <directory name="functional">
+          <file name="conftest.py"></file>
+          <directory name="controllers">
+            <file name="__init__.py"></file>
+            <file name="test_config.py"></file>
+          </directory>
+          <directory name="strategies">
+            <file name="__init__.py"></file>
+            <file name="test_config.py"></file>
+          </directory>
+          <directory name="utils">
+            <file name="test_oracles.py"></file>
+          </directory>
+          <directory name="vaults">
+            <file name="__init__.py"></file>
+            <file name="test_config.py"></file>
+          </directory>
+        </directory>
+      </directory>
+      <file name="yarn.lock"></file>
+    </directory>
+    <directory name="yearn-recycle">
+      <file name="brownie-config.yaml"></file>
+      <directory name="contracts">
+        <file name="Recycle.vy"></file>
+      </directory>
+      <directory name="interfaces">
+        <file name="ERC20.json"></file>
+        <file name="USDT.json"></file>
+        <file name="UniswapV2Router02.json"></file>
+      </directory>
+      <file name="license"></file>
+      <file name="readme.md"></file>
+      <file name="requirements.txt"></file>
+      <directory name="scripts">
+        <file name="deploy.py"></file>
+        <file name="recycle.py"></file>
+      </directory>
+      <directory name="tests">
+        <file name="conftest.py"></file>
+        <file name="test_recycle.py"></file>
+      </directory>
+    </directory>
+    <directory name="yearn-security">
+      <directory name="disclosures">
+        <file name="2020-09-25.md"></file>
+        <file name="2020-10-10.md"></file>
+        <file name="2020-10-30.md"></file>
+      </directory>
+      <directory name="keys">
+        <file name="banteg.asc"></file>
+        <file name="lehnberg.asc"></file>
+        <file name="milkyklim.asc"></file>
+        <file name="publickey.yearn-security@pm.me.asc"></file>
+      </directory>
+    </directory>
+    <directory name="yearn-starter-pack">
+      <file name="LICENSE"></file>
+      <file name="README.md"></file>
+      <file name="brownie-config.yaml"></file>
+      <directory name="contracts">
+        <directory name="controllers">
+          <file name="Controller.sol"></file>
+        </directory>
+        <directory name="strategies">
+          <file name="StrategyDAICompoundBasic.sol"></file>
+          <file name="StrategyDAICurve.sol"></file>
+        </directory>
+        <directory name="test">
+          <file name="Token.sol"></file>
+        </directory>
+        <directory name="vaults">
+          <file name="yVault.sol"></file>
+        </directory>
+      </directory>
+      <directory name="interfaces">
+        <directory name="aave">
+          <file name="Aave.sol"></file>
+          <file name="AaveToken.sol"></file>
+          <file name="LendingPoolAddressesProvider.sol"></file>
+          <file name="Oracle.sol"></file>
+        </directory>
+        <directory name="compound">
+          <file name="Comptroller.sol"></file>
+          <file name="cToken.sol"></file>
+        </directory>
+        <directory name="cream">
+          <file name="Controller.sol"></file>
+        </directory>
+        <directory name="curve">
+          <file name="Curve.sol"></file>
+          <file name="Gauge.sol"></file>
+        </directory>
+        <directory name="dforce">
+          <file name="Rewards.sol"></file>
+          <file name="Token.sol"></file>
+        </directory>
+        <directory name="maker">
+          <file name="Maker.sol"></file>
+          <file name="OracleSecurityModule.sol"></file>
+        </directory>
+        <directory name="uniswap">
+          <file name="Uni.sol"></file>
+        </directory>
+        <directory name="weth">
+          <file name="WETH.sol"></file>
+        </directory>
+        <directory name="yearn">
+          <file name="Converter.sol"></file>
+          <file name="IController.sol"></file>
+          <file name="Mintr.sol"></file>
+          <file name="OneSplitAudit.sol"></file>
+          <file name="Strategy.sol"></file>
+          <file name="Token.sol"></file>
+          <file name="Vault.sol"></file>
+        </directory>
+      </directory>
+      <file name="package-lock.json"></file>
+      <file name="package.json"></file>
+      <file name="requirements-dev.txt"></file>
+      <directory name="tests">
+        <directory name="configuration">
+          <file name="conftest.py"></file>
+          <file name="test_controllers.py"></file>
+          <file name="test_strategies.py"></file>
+          <file name="test_vaults.py"></file>
+        </directory>
+      </directory>
+    </directory>
+    <directory name="yearn-subgraph">
+      <file name="LICENSE"></file>
+      <file name="README.md"></file>
+      <directory name="abis">
+        <file name="Controller.json"></file>
+        <file name="ERC20.json"></file>
+        <file name="Strategy.json"></file>
+        <file name="V1Contract.json"></file>
+      </directory>
+      <file name="commitlint.config.js"></file>
+      <file name="package.json"></file>
+      <file name="schema.graphql"></file>
+      <directory name="src">
+        <file name="mapping.ts"></file>
+        <directory name="mappings">
+          <file name="strategy.ts"></file>
+          <file name="yVault.ts"></file>
+        </directory>
+        <directory name="utils">
+          <file name="constants.ts"></file>
+          <file name="decimals.ts"></file>
+          <directory name="helpers">
+            <file name="index.ts"></file>
+            <directory name="yVault">
+              <file name="account.ts"></file>
+              <file name="token.ts"></file>
+              <file name="yVault.ts"></file>
+            </directory>
+          </directory>
+        </directory>
+      </directory>
+      <file name="subgraph.yaml"></file>
+      <file name="tsconfig.json"></file>
+      <file name="yarn.lock"></file>
+    </directory>
+    <directory name="yearn-vaults">
+      <file name="LICENSE"></file>
+      <file name="README.md"></file>
+      <file name="SPECIFICATION.md"></file>
+      <file name="brownie-config.yaml"></file>
+      <file name="commitlint.config.js"></file>
+      <directory name="contracts">
+        <file name="BaseStrategy.sol"></file>
+        <file name="Vault.vy"></file>
+        <directory name="test">
+          <file name="TestStrategy.sol"></file>
+          <file name="Token.sol"></file>
+        </directory>
+      </directory>
+      <file name="ethpm-config.yaml"></file>
+      <file name="package.json"></file>
+      <file name="requirements-dev.txt"></file>
+      <directory name="scripts">
+        <file name="deploy.py"></file>
+        <file name="keep.py"></file>
+      </directory>
+      <directory name="tests">
+        <file name="conftest.py"></file>
+        <directory name="functional">
+          <file name="conftest.py"></file>
+          <directory name="strategy">
+            <file name="__init__.py"></file>
+            <file name="test_config.py"></file>
+            <file name="test_migration.py"></file>
+            <file name="test_misc.py"></file>
+            <file name="test_shutdown.py"></file>
+            <file name="test_startup.py"></file>
+            <file name="test_withdrawal.py"></file>
+          </directory>
+          <directory name="vault">
+            <file name="__init__.py"></file>
+            <file name="test_config.py"></file>
+            <file name="test_misc.py"></file>
+            <file name="test_shares.py"></file>
+            <file name="test_strategies.py"></file>
+            <file name="test_withdrawal.py"></file>
+          </directory>
+        </directory>
+        <directory name="integration">
+          <file name="conftest.py"></file>
+          <file name="test_operation.py"></file>
+        </directory>
+      </directory>
+      <file name="yarn.lock"></file>
+    </directory>
+    <directory name="ygov-finance">
+      <file name="LICENSE"></file>
+      <file name="README.md"></file>
+      <file name="package-lock.json"></file>
+      <file name="package.json"></file>
+      <directory name="public">
+        <file name="BAT-logo.png"></file>
+        <file name="DAI-logo.png"></file>
+        <file name="ETH-icon.png"></file>
+        <file name="FTM-logo.png"></file>
+        <file name="KNC-logo.png"></file>
+        <file name="LEND-logo.png"></file>
+        <file name="LINK-logo.png"></file>
+        <file name="MANA-logo.png"></file>
+        <file name="MKR-logo.png"></file>
+        <file name="REP-logo.png"></file>
+        <file name="SAI-logo.png"></file>
+        <file name="SNX-logo.png"></file>
+        <file name="SUSD-logo.png"></file>
+        <file name="TUSD-logo.png"></file>
+        <file name="USDC-icon.png"></file>
+        <file name="USDC-logo.png"></file>
+        <file name="USDT-icon.png"></file>
+        <file name="USDT-logo.png"></file>
+        <file name="YFI-logo.png"></file>
+        <file name="ZRX-logo.png"></file>
+        <file name="aave.png"></file>
+        <file name="android-icon-144x144.png"></file>
+        <file name="android-icon-192x192.png"></file>
+        <file name="android-icon-36x36.png"></file>
+        <file name="android-icon-48x48.png"></file>
+        <file name="android-icon-72x72.png"></file>
+        <file name="android-icon-96x96.png"></file>
+        <file name="apple-icon-114x114.png"></file>
+        <file name="apple-icon-120x120.png"></file>
+        <file name="apple-icon-144x144.png"></file>
+        <file name="apple-icon-152x152.png"></file>
+        <file name="apple-icon-180x180.png"></file>
+        <file name="apple-icon-57x57.png"></file>
+        <file name="apple-icon-60x60.png"></file>
+        <file name="apple-icon-72x72.png"></file>
+        <file name="apple-icon-76x76.png"></file>
+        <file name="apple-icon-precomposed.png"></file>
+        <file name="apple-icon.png"></file>
+        <file name="browserconfig.xml"></file>
+        <file name="busd.png"></file>
+        <file name="compound.png"></file>
+        <file name="defizap.png"></file>
+        <file name="etherscan.png"></file>
+        <file name="favicon-16x16.png"></file>
+        <file name="favicon-32x32.png"></file>
+        <file name="favicon-96x96.png"></file>
+        <file name="favicon.ico"></file>
+        <file name="favicon.png.png"></file>
+        <file name="fortmaticIcon.png"></file>
+        <file name="index.html"></file>
+        <file name="kybernetwork.png"></file>
+        <file name="ledger.png"></file>
+        <file name="lendf.png"></file>
+        <file name="manifest.json"></file>
+        <file name="metamask.png"></file>
+        <file name="ms-icon-144x144.png"></file>
+        <file name="ms-icon-150x150.png"></file>
+        <file name="ms-icon-310x310.png"></file>
+        <file name="ms-icon-70x70.png"></file>
+        <file name="portisIcon.png"></file>
+        <file name="squarelink.png"></file>
+        <file name="trezor.png"></file>
+        <file name="truffle.png"></file>
+        <file name="trustWallet.png"></file>
+        <file name="uniswap.png"></file>
+        <file name="wBTC-icon.png"></file>
+        <file name="wBTC-logo.png"></file>
+      </directory>
+      <directory name="src">
+        <file name="App.css"></file>
+        <file name="App.js"></file>
+        <file name="App.test.js"></file>
+        <directory name="assets">
+          <file name="BAT-logo.png"></file>
+          <file name="BPT-logo.png"></file>
+          <file name="BUSD-logo.png"></file>
+          <file name="COMP-logo.png"></file>
+          <file name="CRV-icon.png"></file>
+          <file name="CRV-logo.jpg"></file>
+          <file name="CRV-logo.png"></file>
+          <file name="DAI-logo.png"></file>
+          <file name="ENJ-logo.png"></file>
+          <file name="ETH-icon.png"></file>
+          <file name="ETH-logo.png"></file>
+          <file name="FTM-logo.png"></file>
+          <file name="IEARN-icon.png"></file>
+          <file name="KNC-logo.png"></file>
+          <file name="LEND-logo.png"></file>
+          <file name="LINK-logo.png"></file>
+          <file name="LRC-logo.png"></file>
+          <file name="MANA-logo.png"></file>
+          <file name="MKR-logo.png"></file>
+          <file name="REN-logo.png"></file>
+          <file name="REP-logo.png"></file>
+          <file name="SAI-logo.png"></file>
+          <file name="SNX-logo.png"></file>
+          <file name="SUSD-logo.png"></file>
+          <file name="TUSD-logo.png"></file>
+          <file name="USDC-icon.png"></file>
+          <file name="USDC-logo.png"></file>
+          <file name="USDT-icon.png"></file>
+          <file name="USDT-logo.png"></file>
+          <file name="YFI-logo.png"></file>
+          <file name="ZRX-logo.png"></file>
+          <file name="aBAT-logo.png"></file>
+          <file name="aBUSD-logo.png"></file>
+          <file name="aDAI-logo.png"></file>
+          <file name="aETH-logo.png"></file>
+          <file name="aKNC-logo.png"></file>
+          <file name="aLEND-logo.png"></file>
+          <file name="aLINK-logo.png"></file>
+          <file name="aMANA-logo.png"></file>
+          <file name="aMKR-logo.png"></file>
+          <file name="aREP-logo.png"></file>
+          <file name="aSNX-logo.png"></file>
+          <file name="aSUSD-logo.png"></file>
+          <file name="aTUSD-logo.png"></file>
+          <file name="aUSDC-logo.png"></file>
+          <file name="aUSDT-logo.png"></file>
+          <file name="aWBTC-logo.png"></file>
+          <file name="aZRX-logo.png"></file>
+          <file name="aave.png"></file>
+          <file name="aave.svg"></file>
+          <file name="bzx.png"></file>
+          <file name="cUSDC-logo.png"></file>
+          <file name="cUSDT-logo.png"></file>
+          <file name="coinbaseWalletIcon.svg"></file>
+          <file name="compound.png"></file>
+          <file name="curve.fi-logo.png"></file>
+          <file name="curvefi.jpg"></file>
+          <file name="ddex.jpg"></file>
+          <file name="ddex.png"></file>
+          <file name="defipulse.png"></file>
+          <file name="defisnap.svg"></file>
+          <file name="defizap.png"></file>
+          <file name="discord.svg"></file>
+          <file name="dydx.jpg"></file>
+          <file name="dydx.svg"></file>
+          <file name="ethereum.png"></file>
+          <file name="etherscan.png"></file>
+          <file name="fUSD-logo.png"></file>
+          <directory name="fonts">
+            <file name="WorkSans-VariableFont_wght.ttf"></file>
+          </directory>
+          <file name="fortmaticIcon.png"></file>
+          <file name="github.svg"></file>
+          <file name="iDAI-logo.png"></file>
+          <file name="icn-aethereum.svg"></file>
+          <file name="icn-ledger.svg"></file>
+          <file name="icn-metamask.svg"></file>
+          <file name="kybernetwork.png"></file>
+          <file name="ledger.png"></file>
+          <file name="lendf.png"></file>
+          <file name="lendf.svg"></file>
+          <file name="medium.svg"></file>
+          <file name="metamask.png"></file>
+          <file name="metamask.svg"></file>
+          <file name="oCurve-logo.svg"></file>
+          <file name="oneinch.svg"></file>
+          <file name="portisIcon.png"></file>
+          <file name="squarelink.png"></file>
+          <file name="synthetix.png"></file>
+          <file name="telegram.svg"></file>
+          <file name="torus.jpg"></file>
+          <file name="trezor.png"></file>
+          <file name="truffle.png"></file>
+          <file name="trustWallet.png"></file>
+          <file name="twitter.svg"></file>
+          <file name="uniswap.png"></file>
+          <file name="uniswap.svg"></file>
+          <file name="wBTC-icon.png"></file>
+          <file name="wBTC-logo.png"></file>
+          <file name="walletConnectIcon.svg"></file>
+          <file name="ycUSDC-logo.png"></file>
+          <file name="ycUSDT-logo.png"></file>
+        </directory>
+        <directory name="components">
+          <directory name="account">
+            <file name="account.jsx"></file>
+            <file name="package.json"></file>
+          </directory>
+          <directory name="claim">
+            <file name="claim.jsx"></file>
+            <file name="package.json"></file>
+          </directory>
+          <directory name="footer">
+            <file name="footer.jsx"></file>
+            <file name="package.json"></file>
+          </directory>
+          <directory name="header">
+            <file name="header.jsx"></file>
+            <file name="package.json"></file>
+          </directory>
+          <directory name="home">
+            <file name="home.jsx"></file>
+            <file name="package.json"></file>
+          </directory>
+          <directory name="loader">
+            <file name="loader.jsx"></file>
+            <file name="package.json"></file>
+          </directory>
+          <directory name="lock">
+            <file name="lock.jsx"></file>
+            <file name="package.json"></file>
+          </directory>
+          <directory name="propose">
+            <file name="package.json"></file>
+            <file name="propose.jsx"></file>
+          </directory>
+          <directory name="rewardPools">
+            <file name="package.json"></file>
+            <file name="rewardPools.jsx"></file>
+          </directory>
+          <directory name="snackbar">
+            <file name="package.json"></file>
+            <file name="snackbar.jsx"></file>
+          </directory>
+          <directory name="stake">
+            <file name="package.json"></file>
+            <file name="stake.jsx"></file>
+          </directory>
+          <directory name="unlock">
+            <file name="hooks.jsx"></file>
+            <file name="package.json"></file>
+            <file name="unlock.jsx"></file>
+            <file name="unlockModal.jsx"></file>
+          </directory>
+          <directory name="versionToggle">
+            <file name="package.json"></file>
+            <file name="versionToggle.jsx"></file>
+          </directory>
+          <directory name="vote">
+            <file name="package.json"></file>
+            <file name="proposal.jsx"></file>
+            <file name="vote.jsx"></file>
+          </directory>
+        </directory>
+        <directory name="config">
+          <file name="config.jsx"></file>
+          <file name="development.config.js"></file>
+          <file name="example.config.js"></file>
+          <file name="package.json"></file>
+          <file name="production.config.js"></file>
+        </directory>
+        <directory name="constants">
+          <file name="constants.jsx"></file>
+          <file name="package.json"></file>
+        </directory>
+        <file name="i18n.js"></file>
+        <file name="index.css"></file>
+        <file name="index.js"></file>
+        <directory name="locales">
+          <directory name="en">
+            <file name="translation.json"></file>
+          </directory>
+          <directory name="ja">
+            <file name="translation.json"></file>
+          </directory>
+          <directory name="zh">
+            <file name="translation.json"></file>
+          </directory>
+        </directory>
+        <file name="serviceWorker.js"></file>
+        <directory name="stores">
+          <file name="connectors.jsx"></file>
+          <file name="package.json"></file>
+          <file name="store.jsx"></file>
+        </directory>
+        <directory name="theme">
+          <file name="package.json"></file>
+          <file name="theme.jsx"></file>
+        </directory>
+        <directory name="utils">
+          <file name="storageHelper.js"></file>
+          <file name="voteFinder.js"></file>
+        </directory>
+      </directory>
+    </directory>
+    <directory name="yinsure-finance">
+      <file name="LICENSE"></file>
+      <file name="README.md"></file>
+      <file name="package-lock.json"></file>
+      <file name="package.json"></file>
+      <directory name="public">
+        <file name="android-icon-144x144.png"></file>
+        <file name="android-icon-192x192.png"></file>
+        <file name="android-icon-36x36.png"></file>
+        <file name="android-icon-48x48.png"></file>
+        <file name="android-icon-72x72.png"></file>
+        <file name="android-icon-96x96.png"></file>
+        <file name="apple-icon-114x114.png"></file>
+        <file name="apple-icon-120x120.png"></file>
+        <file name="apple-icon-144x144.png"></file>
+        <file name="apple-icon-152x152.png"></file>
+        <file name="apple-icon-180x180.png"></file>
+        <file name="apple-icon-57x57.png"></file>
+        <file name="apple-icon-60x60.png"></file>
+        <file name="apple-icon-72x72.png"></file>
+        <file name="apple-icon-76x76.png"></file>
+        <file name="apple-icon-precomposed.png"></file>
+        <file name="apple-icon.png"></file>
+        <file name="browserconfig.xml"></file>
+        <file name="favicon-16x16.png"></file>
+        <file name="favicon-32x32.png"></file>
+        <file name="favicon-96x96.png"></file>
+        <file name="favicon.png.png"></file>
+        <file name="index.html"></file>
+        <file name="manifest.json"></file>
+        <file name="ms-icon-144x144.png"></file>
+        <file name="ms-icon-150x150.png"></file>
+        <file name="ms-icon-310x310.png"></file>
+        <file name="ms-icon-70x70.png"></file>
+      </directory>
+      <directory name="src">
+        <file name="App.css"></file>
+        <file name="App.js"></file>
+        <file name="App.test.js"></file>
+        <directory name="assets">
+          <file name="BAL-logo.png"></file>
+          <file name="BAT-logo.png"></file>
+          <file name="BUSD-logo.png"></file>
+          <file name="COMP-logo.png"></file>
+          <file name="CRV-icon.png"></file>
+          <file name="CRV-logo.jpg"></file>
+          <file name="CRV-logo.png"></file>
+          <file name="DAI-logo.png"></file>
+          <file name="ERPH0DMWsAEWBjy.jpg"></file>
+          <file name="ETH-icon.png"></file>
+          <file name="ETH-logo.png"></file>
+          <file name="FTM-logo.png"></file>
+          <file name="IEARN-icon.png"></file>
+          <file name="KNC-logo.png"></file>
+          <file name="LEND-logo.png"></file>
+          <file name="LINK-logo.png"></file>
+          <file name="MANA-logo.png"></file>
+          <file name="MKR-logo.png"></file>
+          <file name="MUSD-logo.png"></file>
+          <file name="OPYN-logo.png"></file>
+          <file name="REP-logo.png"></file>
+          <file name="SAI-logo.png"></file>
+          <file name="SNX-logo.png"></file>
+          <file name="SUSD-logo.png"></file>
+          <file name="TUSD-logo.png"></file>
+          <file name="UMA-logo.png"></file>
+          <file name="USDC-logo.png"></file>
+          <file name="USDT-logo.png"></file>
+          <file name="YFI-logo.png"></file>
+          <file name="ZRX-logo.png"></file>
+          <file name="aLINK-logo.png"></file>
+          <file name="aave.png"></file>
+          <file name="aave.svg"></file>
+          <file name="bzx.png"></file>
+          <file name="cUSDC-logo.png"></file>
+          <file name="cUSDT-logo.png"></file>
+          <file name="coinbaseWalletIcon.svg"></file>
+          <file name="compound.png"></file>
+          <file name="curvefi.jpg"></file>
+          <file name="ddex.jpg"></file>
+          <file name="ddex.png"></file>
+          <file name="defipulse.png"></file>
+          <file name="defisnap.svg"></file>
+          <file name="defizap.png"></file>
+          <file name="dforce-logo.jpg"></file>
+          <file name="discord.svg"></file>
+          <file name="dydx.jpg"></file>
+          <file name="dydx.svg"></file>
+          <file name="ethereum.png"></file>
+          <file name="etherscan.png"></file>
+          <directory name="fonts">
+            <file name="WorkSans-VariableFont_wght.ttf"></file>
+          </directory>
+          <file name="fortmaticIcon.png"></file>
+          <file name="github.svg"></file>
+          <file name="iDAI-logo.png"></file>
+          <file name="icn-aethereum.svg"></file>
+          <file name="icn-ledger.svg"></file>
+          <file name="icn-metamask.svg"></file>
+          <file name="kybernetwork.png"></file>
+          <file name="ledger.png"></file>
+          <file name="lendf.png"></file>
+          <file name="lendf.svg"></file>
+          <file name="medium.svg"></file>
+          <file name="metamask.png"></file>
+          <file name="metamask.svg"></file>
+          <file name="oCurve-logo.svg"></file>
+          <file name="oneinch.svg"></file>
+          <file name="portisIcon.png"></file>
+          <file name="squarelink.png"></file>
+          <file name="synthetix.png"></file>
+          <file name="telegram.svg"></file>
+          <file name="torus.jpg"></file>
+          <file name="trezor.png"></file>
+          <file name="truffle.png"></file>
+          <file name="trustWallet.png"></file>
+          <file name="twitter.svg"></file>
+          <file name="uniswap-logo.png"></file>
+          <file name="uniswap.png"></file>
+          <file name="uniswap.svg"></file>
+          <file name="wBTC-icon.png"></file>
+          <file name="wBTC-logo.png"></file>
+          <file name="walletConnectIcon.svg"></file>
+          <file name="ycUSDC-logo.png"></file>
+          <file name="ycUSDT-logo.png"></file>
+        </directory>
+        <directory name="components">
+          <directory name="account">
+            <file name="account.jsx"></file>
+            <file name="package.json"></file>
+          </directory>
+          <directory name="addCover">
+            <file name="addCover.jsx"></file>
+            <file name="contract.jsx"></file>
+            <file name="package.json"></file>
+          </directory>
+          <directory name="dashboard">
+            <file name="dashboard.jsx"></file>
+            <file name="package.json"></file>
+          </directory>
+          <directory name="disclaimer">
+            <file name="disclaimer.jsx"></file>
+            <file name="package.json"></file>
+          </directory>
+          <directory name="footer">
+            <file name="footer.jsx"></file>
+            <file name="package.json"></file>
+          </directory>
+          <directory name="header">
+            <file name="header.jsx"></file>
+            <file name="package.json"></file>
+          </directory>
+          <directory name="home">
+            <file name="home.jsx"></file>
+            <file name="package.json"></file>
+          </directory>
+          <directory name="loader">
+            <file name="loader.jsx"></file>
+            <file name="package.json"></file>
+          </directory>
+          <directory name="snackbar">
+            <file name="package.json"></file>
+            <file name="snackbar.jsx"></file>
+            <file name="snackbarController.jsx"></file>
+          </directory>
+          <directory name="unlock">
+            <file name="hooks.jsx"></file>
+            <file name="package.json"></file>
+            <file name="unlock.jsx"></file>
+            <file name="unlockModal.jsx"></file>
+          </directory>
+        </directory>
+        <directory name="config">
+          <file name="config.jsx"></file>
+          <file name="index.js"></file>
+          <file name="package.json"></file>
+        </directory>
+        <directory name="constants">
+          <file name="constants.jsx"></file>
+          <file name="package.json"></file>
+        </directory>
+        <file name="i18n.js"></file>
+        <file name="index.css"></file>
+        <file name="index.js"></file>
+        <directory name="locales">
+          <directory name="en">
+            <file name="translation.json"></file>
+          </directory>
+          <directory name="ja">
+            <file name="translation.json"></file>
+          </directory>
+          <directory name="zh">
+            <file name="translation.json"></file>
+          </directory>
+        </directory>
+        <file name="serviceWorker.js"></file>
+        <directory name="stores">
+          <file name="connectors.jsx"></file>
+          <file name="package.json"></file>
+          <file name="store.jsx"></file>
+        </directory>
+        <directory name="theme">
+          <file name="package.json"></file>
+          <file name="theme.jsx"></file>
+        </directory>
+      </directory>
+    </directory>
+    <directory name="yip_validator">
+      <file name="CODE_OF_CONDUCT.md"></file>
+      <file name="Gemfile"></file>
+      <file name="LICENSE.txt"></file>
+      <file name="README.md"></file>
+      <file name="Rakefile"></file>
+      <directory name="bin">
+        <file name="yip_validator"></file>
+      </directory>
+      <directory name="lib">
+        <directory name="yip_validator">
+          <file name="loader.rb"></file>
+          <file name="validator.rb"></file>
+          <file name="version.rb"></file>
+        </directory>
+        <file name="yip_validator.rb"></file>
+      </directory>
+      <directory name="spec">
+        <directory name="fixtures">
+          <directory name="invalid">
+            <file name="yip-7.md"></file>
+          </directory>
+          <directory name="valid">
+            <file name="yip-7.md"></file>
+            <file name="yip-9.md"></file>
+          </directory>
+        </directory>
+        <file name="loader_spec.rb"></file>
+        <file name="spec_helper.rb"></file>
+        <file name="validator_spec.rb"></file>
+        <file name="yip_validator_spec.rb"></file>
+      </directory>
+      <file name="yip_validator.gemspec"></file>
+    </directory>
+    <directory name="yswap-finance">
+      <file name="LICENSE"></file>
+      <file name="README.md"></file>
+      <file name="package-lock.json"></file>
+      <file name="package.json"></file>
+      <directory name="public">
+        <file name="BAT-logo.png"></file>
+        <file name="DAI-logo.png"></file>
+        <file name="ETH-icon.png"></file>
+        <file name="FTM-logo.png"></file>
+        <file name="KNC-logo.png"></file>
+        <file name="LEND-logo.png"></file>
+        <file name="LINK-logo.png"></file>
+        <file name="MANA-logo.png"></file>
+        <file name="MKR-logo.png"></file>
+        <file name="REP-logo.png"></file>
+        <file name="SAI-logo.png"></file>
+        <file name="SNX-logo.png"></file>
+        <file name="SUSD-logo.png"></file>
+        <file name="TUSD-logo.png"></file>
+        <file name="USDC-icon.png"></file>
+        <file name="USDC-logo.png"></file>
+        <file name="USDT-icon.png"></file>
+        <file name="USDT-logo.png"></file>
+        <file name="ZRX-logo.png"></file>
+        <file name="aave.png"></file>
+        <file name="android-icon-144x144.png"></file>
+        <file name="android-icon-192x192.png"></file>
+        <file name="android-icon-36x36.png"></file>
+        <file name="android-icon-48x48.png"></file>
+        <file name="android-icon-72x72.png"></file>
+        <file name="android-icon-96x96.png"></file>
+        <file name="apple-icon-114x114.png"></file>
+        <file name="apple-icon-120x120.png"></file>
+        <file name="apple-icon-144x144.png"></file>
+        <file name="apple-icon-152x152.png"></file>
+        <file name="apple-icon-180x180.png"></file>
+        <file name="apple-icon-57x57.png"></file>
+        <file name="apple-icon-60x60.png"></file>
+        <file name="apple-icon-72x72.png"></file>
+        <file name="apple-icon-76x76.png"></file>
+        <file name="apple-icon-precomposed.png"></file>
+        <file name="apple-icon.png"></file>
+        <file name="browserconfig.xml"></file>
+        <file name="busd.png"></file>
+        <file name="compound.png"></file>
+        <file name="defizap.png"></file>
+        <file name="etherscan.png"></file>
+        <file name="favicon-16x16.png"></file>
+        <file name="favicon-32x32.png"></file>
+        <file name="favicon-96x96.png"></file>
+        <file name="favicon.ico"></file>
+        <file name="favicon.png.png"></file>
+        <file name="fortmaticIcon.png"></file>
+        <file name="index.html"></file>
+        <file name="kybernetwork.png"></file>
+        <file name="ledger.png"></file>
+        <file name="lendf.png"></file>
+        <file name="manifest.json"></file>
+        <file name="metamask.png"></file>
+        <file name="ms-icon-144x144.png"></file>
+        <file name="ms-icon-150x150.png"></file>
+        <file name="ms-icon-310x310.png"></file>
+        <file name="ms-icon-70x70.png"></file>
+        <file name="portisIcon.png"></file>
+        <file name="squarelink.png"></file>
+        <file name="trezor.png"></file>
+        <file name="truffle.png"></file>
+        <file name="trustWallet.png"></file>
+        <file name="uniswap.png"></file>
+        <file name="wBTC-icon.png"></file>
+        <file name="wBTC-logo.png"></file>
+      </directory>
+      <directory name="src">
+        <file name="App.css"></file>
+        <file name="App.js"></file>
+        <file name="App.test.js"></file>
+        <directory name="assets">
+          <file name="BAT-logo.png"></file>
+          <file name="BUSD-logo.png"></file>
+          <file name="COMP-logo.png"></file>
+          <file name="CRV-icon.png"></file>
+          <file name="CRV-logo.jpg"></file>
+          <file name="CRV-logo.png"></file>
+          <file name="DAI-logo.png"></file>
+          <file name="ENJ-logo.png"></file>
+          <file name="ETH-icon.png"></file>
+          <file name="ETH-logo.png"></file>
+          <file name="FTM-logo.png"></file>
+          <file name="IEARN-icon.png"></file>
+          <file name="KNC-logo.png"></file>
+          <file name="LEND-logo.png"></file>
+          <file name="LINK-logo.png"></file>
+          <file name="LRC-logo.png"></file>
+          <file name="MANA-logo.png"></file>
+          <file name="MKR-logo.png"></file>
+          <file name="REN-logo.png"></file>
+          <file name="REP-logo.png"></file>
+          <file name="SAI-logo.png"></file>
+          <file name="SNX-logo.png"></file>
+          <file name="SUSD-logo.png"></file>
+          <file name="TUSD-logo.png"></file>
+          <file name="USDC-icon.png"></file>
+          <file name="USDC-logo.png"></file>
+          <file name="USDT-icon.png"></file>
+          <file name="USDT-logo.png"></file>
+          <file name="ZRX-logo.png"></file>
+          <file name="aBAT-logo.png"></file>
+          <file name="aBUSD-logo.png"></file>
+          <file name="aDAI-logo.png"></file>
+          <file name="aETH-logo.png"></file>
+          <file name="aKNC-logo.png"></file>
+          <file name="aLEND-logo.png"></file>
+          <file name="aLINK-logo.png"></file>
+          <file name="aMANA-logo.png"></file>
+          <file name="aMKR-logo.png"></file>
+          <file name="aREP-logo.png"></file>
+          <file name="aSNX-logo.png"></file>
+          <file name="aSUSD-logo.png"></file>
+          <file name="aTUSD-logo.png"></file>
+          <file name="aUSDC-logo.png"></file>
+          <file name="aUSDT-logo.png"></file>
+          <file name="aWBTC-logo.png"></file>
+          <file name="aZRX-logo.png"></file>
+          <file name="aave.png"></file>
+          <file name="aave.svg"></file>
+          <file name="bzx.png"></file>
+          <file name="cUSDC-logo.png"></file>
+          <file name="cUSDT-logo.png"></file>
+          <file name="coinbaseWalletIcon.svg"></file>
+          <file name="compound.png"></file>
+          <file name="curvefi.jpg"></file>
+          <file name="ddex.jpg"></file>
+          <file name="ddex.png"></file>
+          <file name="defipulse.png"></file>
+          <file name="defisnap.svg"></file>
+          <file name="defizap.png"></file>
+          <file name="dydx.jpg"></file>
+          <file name="dydx.svg"></file>
+          <file name="ethereum.png"></file>
+          <file name="etherscan.png"></file>
+          <file name="fUSD-logo.png"></file>
+          <directory name="fonts">
+            <file name="WorkSans-VariableFont_wght.ttf"></file>
+          </directory>
+          <file name="fortmaticIcon.png"></file>
+          <file name="iDAI-logo.png"></file>
+          <file name="icn-aethereum.svg"></file>
+          <file name="icn-ledger.svg"></file>
+          <file name="icn-metamask.svg"></file>
+          <file name="kybernetwork.png"></file>
+          <file name="ledger.png"></file>
+          <file name="lendf.png"></file>
+          <file name="lendf.svg"></file>
+          <file name="metamask.png"></file>
+          <file name="metamask.svg"></file>
+          <file name="oCurve-logo.svg"></file>
+          <file name="oneinch.svg"></file>
+          <file name="portisIcon.png"></file>
+          <file name="squarelink.png"></file>
+          <file name="synthetix.png"></file>
+          <file name="torus.jpg"></file>
+          <file name="trezor.png"></file>
+          <file name="truffle.png"></file>
+          <file name="trustWallet.png"></file>
+          <file name="uniswap.png"></file>
+          <file name="uniswap.svg"></file>
+          <file name="wBTC-icon.png"></file>
+          <file name="wBTC-logo.png"></file>
+          <file name="walletConnectIcon.svg"></file>
+          <file name="ycUSDC-logo.png"></file>
+          <file name="ycUSDT-logo.png"></file>
+        </directory>
+        <directory name="components">
+          <directory name="account">
+            <file name="account.jsx"></file>
+            <file name="package.json"></file>
+          </directory>
+          <directory name="footer">
+            <file name="footer.jsx"></file>
+            <file name="package.json"></file>
+          </directory>
+          <directory name="header">
+            <file name="header.jsx"></file>
+            <file name="package.json"></file>
+          </directory>
+          <directory name="home">
+            <file name="home.jsx"></file>
+            <file name="package.json"></file>
+          </directory>
+          <directory name="loader">
+            <file name="loader.jsx"></file>
+            <file name="package.json"></file>
+          </directory>
+          <directory name="pool">
+            <directory name="deposit">
+              <file name="deposit.jsx"></file>
+              <file name="package.json"></file>
+            </directory>
+            <directory name="exchange">
+              <file name="exchange.jsx"></file>
+              <file name="package.json"></file>
+            </directory>
+            <file name="package.json"></file>
+            <file name="pool.jsx"></file>
+            <directory name="withdraw">
+              <file name="package.json"></file>
+              <file name="withdraw.jsx"></file>
+            </directory>
+          </directory>
+          <directory name="snackbar">
+            <file name="package.json"></file>
+            <file name="snackbar.jsx"></file>
+          </directory>
+          <directory name="unlock">
+            <file name="hooks.jsx"></file>
+            <file name="package.json"></file>
+            <file name="unlock.jsx"></file>
+            <file name="unlockModal.jsx"></file>
+          </directory>
+        </directory>
+        <directory name="config">
+          <file name="config.jsx"></file>
+          <file name="development.config.js"></file>
+          <file name="example.config.js"></file>
+          <file name="package.json"></file>
+          <file name="production.config.js"></file>
+        </directory>
+        <directory name="constants">
+          <file name="constants.jsx"></file>
+          <file name="package.json"></file>
+        </directory>
+        <file name="i18n.js"></file>
+        <file name="index.css"></file>
+        <file name="index.js"></file>
+        <directory name="locales">
+          <directory name="en">
+            <file name="translation.json"></file>
+          </directory>
+          <directory name="ja">
+            <file name="translation.json"></file>
+          </directory>
+          <directory name="zh">
+            <file name="translation.json"></file>
+          </directory>
+        </directory>
+        <file name="serviceWorker.js"></file>
+        <directory name="stores">
+          <file name="connectors.jsx"></file>
+          <file name="package.json"></file>
+          <file name="store.jsx"></file>
+        </directory>
+        <directory name="theme">
+          <file name="package.json"></file>
+          <file name="theme.jsx"></file>
+        </directory>
+      </directory>
+    </directory>
+    <directory name="yuni.finance">
+      <file name="LICENSE"></file>
+      <file name="README.md"></file>
+      <file name="package-lock.json"></file>
+      <file name="package.json"></file>
+      <directory name="public">
+        <file name="browserconfig.xml"></file>
+        <file name="favicon.svg"></file>
+        <file name="index.html"></file>
+        <file name="manifest.json"></file>
+      </directory>
+      <directory name="src">
+        <file name="App.css"></file>
+        <file name="App.js"></file>
+        <file name="App.test.js"></file>
+        <directory name="assets">
+          <directory name="connectors">
+            <file name="icn-metamask.svg"></file>
+          </directory>
+          <directory name="delegatees">
+            <file name="andre-logo.jpg"></file>
+          </directory>
+          <directory name="fonts">
+            <file name="WorkSans-VariableFont_wght.ttf"></file>
+          </directory>
+          <file name="uniswap-logo.svg"></file>
+        </directory>
+        <directory name="components">
+          <directory name="delegate">
+            <file name="delegate.jsx"></file>
+            <file name="delegatee.jsx"></file>
+            <file name="package.json"></file>
+          </directory>
+          <directory name="loader">
+            <file name="loader.jsx"></file>
+            <file name="package.json"></file>
+          </directory>
+          <directory name="snackbar">
+            <file name="package.json"></file>
+            <file name="snackbar.jsx"></file>
+          </directory>
+          <directory name="unlock">
+            <file name="hooks.jsx"></file>
+            <file name="package.json"></file>
+            <file name="unlock.jsx"></file>
+            <file name="unlockModal.jsx"></file>
+          </directory>
+        </directory>
+        <directory name="config">
+          <file name="config.jsx"></file>
+          <file name="example.config.js"></file>
+          <file name="package.json"></file>
+        </directory>
+        <directory name="constants">
+          <file name="constants.jsx"></file>
+          <file name="package.json"></file>
+        </directory>
+        <file name="index.css"></file>
+        <file name="index.js"></file>
+        <file name="serviceWorker.js"></file>
+        <directory name="stores">
+          <file name="connectors.jsx"></file>
+          <file name="package.json"></file>
+          <file name="store.jsx"></file>
+        </directory>
+        <directory name="theme">
+          <file name="package.json"></file>
+          <file name="theme.jsx"></file>
+        </directory>
+      </directory>
+    </directory>
+    <directory name="zap">
+      <file name="LICENSE"></file>
+      <file name="README.md"></file>
+      <directory name="build">
+        <directory name="contracts">
+          <file name="AToken.json"></file>
+          <file name="Aave.json"></file>
+          <file name="Address.json"></file>
+          <file name="Compound.json"></file>
+          <file name="Context.json"></file>
+          <file name="DyDx.json"></file>
+          <file name="Fulcrum.json"></file>
+          <file name="IERC20.json"></file>
+          <file name="IIEarnManager.json"></file>
+          <file name="ILendingPoolAddressesProvider.json"></file>
+          <file name="IOneSplitInterface.json"></file>
+          <file name="IUniSwap_ETH_CDAIZap.json"></file>
+          <file name="Initializable.json"></file>
+          <file name="InvestZAP.json"></file>
+          <file name="IuniswapExchange.json"></file>
+          <file name="IuniswapFactory.json"></file>
+          <file name="Migrations.json"></file>
+          <file name="Ownable.json"></file>
+          <file name="SafeMath.json"></file>
+          <file name="Structs.json"></file>
+          <file name="UniSwap_ETH_CDAIZap.json"></file>
+        </directory>
+      </directory>
+      <directory name="contracts">
+        <file name="IUniSwap_ETH_cDAI.sol"></file>
+        <file name="InvestZAP.sol"></file>
+        <file name="Migrations.sol"></file>
+        <file name="UniSwap_ETH_cDAI.sol"></file>
+      </directory>
+      <directory name="migrations">
+        <file name="1_initial_migration.js"></file>
+      </directory>
+      <file name="package.json"></file>
+      <directory name="test">
+        <file name="Uniswap_ETH_cDAI.js"></file>
+      </directory>
+    </directory>
+  </directory>
+  <report>
+    <directories>394</directories>
+    <files>2298</files>
+  </report>
+</tree>
